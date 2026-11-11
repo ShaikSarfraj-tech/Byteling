@@ -1,0 +1,128 @@
+1
+00:00:00,250 --> 00:00:01,810
+A Docker container is not a
+
+2
+00:00:01,810 --> 00:00:03,340
+tiny virtual machine.
+
+3
+00:00:03,340 --> 00:00:04,700
+It's just a Linux process,
+
+4
+00:00:04,700 --> 00:00:06,154
+wearing a disguise.
+
+5
+00:00:06,224 --> 00:00:07,784
+A virtual machine boots a full
+
+6
+00:00:07,784 --> 00:00:09,784
+guest operating system, with its own
+
+7
+00:00:09,784 --> 00:00:10,384
+kernel.
+
+8
+00:00:10,384 --> 00:00:11,937
+Heavy, and slow.
+
+9
+00:00:11,967 --> 00:00:13,687
+A container skips all of that.
+
+10
+00:00:13,687 --> 00:00:16,247
+It shares the host's kernel, and relies on
+
+11
+00:00:16,247 --> 00:00:17,868
+three kernel features.
+
+12
+00:00:17,898 --> 00:00:19,178
+One: namespaces.
+
+13
+00:00:19,178 --> 00:00:21,498
+They control what the process can see.
+
+14
+00:00:21,498 --> 00:00:24,098
+Inside, it thinks it's process ID one,
+
+15
+00:00:24,098 --> 00:00:26,318
+with its own network and hostname.
+
+16
+00:00:26,348 --> 00:00:27,468
+Two: cgroups.
+
+17
+00:00:27,468 --> 00:00:29,068
+They limit what it can use.
+
+18
+00:00:29,068 --> 00:00:32,508
+Half a CPU, five hundred megabytes of RAM.
+
+19
+00:00:32,508 --> 00:00:34,428
+Exceed the memory, and the kernel
+
+20
+00:00:34,428 --> 00:00:35,258
+kills it.
+
+21
+00:00:35,288 --> 00:00:37,168
+Three: a layered filesystem.
+
+22
+00:00:37,168 --> 00:00:39,928
+Your image is a stack of read-only layers,
+
+23
+00:00:39,928 --> 00:00:42,682
+with one thin writable layer on top.
+
+24
+00:00:42,712 --> 00:00:43,592
+Don't believe me?
+
+25
+00:00:43,592 --> 00:00:45,192
+Run ps on the host.
+
+26
+00:00:45,192 --> 00:00:46,792
+Your container is right there,
+
+27
+00:00:46,792 --> 00:00:48,562
+an ordinary process.
+
+28
+00:00:48,592 --> 00:00:50,192
+That's why containers start in a
+
+29
+00:00:50,192 --> 00:00:52,192
+fraction of a second, and one server
+
+30
+00:00:52,192 --> 00:00:53,830
+can run hundreds of them.
+
+31
+00:00:53,930 --> 00:00:55,570
+A container isn't a machine.
+
+32
+00:00:55,570 --> 00:00:57,884
+It's a process with boundaries.
+

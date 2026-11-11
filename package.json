@@ -1,0 +1,8 @@
+{
+  "name": "byteling",
+  "private": true,
+  "type": "module",
+  "description": "Programmatically generated tech shorts (voiceover, captions, 3D animation, SFX)",
+  "scripts": { "build": "bash build.sh" },
+  "dependencies": { "three": "^0.170.0" }
+}
