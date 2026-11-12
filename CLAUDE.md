@@ -19,6 +19,8 @@ Do the whole job without asking for assets or confirmation:
    If it does not, say so plainly and hand over the MP4 + metadata.
 
 ## Hard rules
+- Voice: use the male Kokoro voice `am_michael` (`VOICE = "am_michael"` in `script.py`) so new videos match
+  the rest of the channel. The first four episodes (11–12 Nov 2026) used the female `af_heart` voice.
 - Halal-conscious audio: NO music, beats, melodies or pitched tones. Voice + quiet noise-based SFX only.
 - 1080×1920, 60 fps, MP4, word-by-word captions kept clear of the visuals.
 - Publish slots: every day at 7 pm and 9 pm (owner's local time).
