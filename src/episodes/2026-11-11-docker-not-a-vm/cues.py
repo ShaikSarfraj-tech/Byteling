@@ -2,7 +2,8 @@
 animation and sound are both locked to the narration."""
 import json
 from pathlib import Path
-OUT = Path(__file__).resolve().parent.parent / "output"
+import os
+OUT = Path(__file__).resolve().parents[3] / "episodes" / os.environ["EP"]
 T = json.loads((OUT / "timings.json").read_text())
 S = [s["start"] for s in T["sentences"]]
 def w(si, text, nth=0):

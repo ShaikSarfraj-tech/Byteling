@@ -1,0 +1,124 @@
+1
+00:00:00,250 --> 00:00:02,330
+One git clone could run a hacker's code on
+
+2
+00:00:02,330 --> 00:00:03,191
+your machine.
+
+3
+00:00:03,191 --> 00:00:04,551
+This week, Git patched six
+
+4
+00:00:04,551 --> 00:00:05,511
+vulnerabilities.
+
+5
+00:00:05,511 --> 00:00:07,958
+The worst is rated high severity.
+
+6
+00:00:07,988 --> 00:00:08,908
+Here's the trick.
+
+7
+00:00:08,908 --> 00:00:11,028
+Before Git writes a file, it checks the
+
+8
+00:00:11,028 --> 00:00:13,268
+path, so nothing can overwrite its own
+
+9
+00:00:13,268 --> 00:00:14,502
+.git data.
+
+10
+00:00:14,512 --> 00:00:16,512
+But the attacker uses an extremely
+
+11
+00:00:16,512 --> 00:00:17,232
+long path.
+
+12
+00:00:17,232 --> 00:00:18,952
+Its length gets truncated.
+
+13
+00:00:18,952 --> 00:00:20,432
+So it passes the check under
+
+14
+00:00:20,432 --> 00:00:22,232
+its full name, then gets written
+
+15
+00:00:22,232 --> 00:00:24,464
+under a shorter one: .git
+
+16
+00:00:24,474 --> 00:00:26,874
+Inside a submodule, that file becomes
+
+17
+00:00:26,874 --> 00:00:28,394
+a symlink, pointing at a
+
+18
+00:00:28,394 --> 00:00:30,206
+folder of malicious hooks.
+
+19
+00:00:30,216 --> 00:00:31,456
+When Git uses that folder,
+
+20
+00:00:31,456 --> 00:00:33,096
+the attacker's code runs.
+
+21
+00:00:33,096 --> 00:00:35,696
+On your laptop, or your CI runner.
+
+22
+00:00:35,726 --> 00:00:36,766
+It only triggers with
+
+23
+00:00:36,766 --> 00:00:39,166
+--recurse-submodules, which pipelines and
+
+24
+00:00:39,166 --> 00:00:41,263
+coding agents use all the time.
+
+25
+00:00:41,293 --> 00:00:44,333
+The fix: update to Git 2.56.1,
+
+26
+00:00:44,333 --> 00:00:45,939
+or a patched backport.
+
+27
+00:00:45,949 --> 00:00:47,028
+Can't update yet?
+
+28
+00:00:47,028 --> 00:00:48,949
+Clone without submodules first,
+
+29
+00:00:48,949 --> 00:00:51,129
+and inspect .gitmodules
+
+30
+00:00:51,199 --> 00:00:53,159
+A repo is code from a stranger.
+
+31
+00:00:53,159 --> 00:00:54,651
+Treat it that way.
+

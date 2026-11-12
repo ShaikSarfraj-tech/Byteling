@@ -1,0 +1,1631 @@
+{
+ "duration": 54.951,
+ "sentences": [
+  {
+   "index": 0,
+   "start": 0.25,
+   "end": 2.841,
+   "text": "One git clone could run a hacker's code on your machine."
+  },
+  {
+   "index": 1,
+   "start": 3.191,
+   "end": 7.608,
+   "text": "This week, Git patched six vulnerabilities. The worst is rated high severity."
+  },
+  {
+   "index": 2,
+   "start": 7.988,
+   "end": 14.152,
+   "text": "Here's the trick. Before Git writes a file, it checks the path, so nothing can overwrite its own .git data."
+  },
+  {
+   "index": 3,
+   "start": 14.512,
+   "end": 24.114,
+   "text": "But the attacker uses an extremely long path. Its length gets truncated. So it passes the check under its full name, then gets written under a shorter one: .git"
+  },
+  {
+   "index": 4,
+   "start": 24.474,
+   "end": 29.856,
+   "text": "Inside a submodule, that file becomes a symlink, pointing at a folder of malicious hooks."
+  },
+  {
+   "index": 5,
+   "start": 30.216,
+   "end": 35.346,
+   "text": "When Git uses that folder, the attacker's code runs. On your laptop, or your CI runner."
+  },
+  {
+   "index": 6,
+   "start": 35.726,
+   "end": 40.913,
+   "text": "It only triggers with --recurse-submodules, which pipelines and coding agents use all the time."
+  },
+  {
+   "index": 7,
+   "start": 41.293,
+   "end": 45.589,
+   "text": "The fix: update to Git 2.56.1, or a patched backport."
+  },
+  {
+   "index": 8,
+   "start": 45.949,
+   "end": 50.779,
+   "text": "Can't update yet? Clone without submodules first, and inspect .gitmodules"
+  },
+  {
+   "index": 9,
+   "start": 51.199,
+   "end": 54.051,
+   "text": "A repo is code from a stranger. Treat it that way."
+  }
+ ],
+ "words": [
+  {
+   "text": "One",
+   "kw": false,
+   "start": 0.25,
+   "end": 0.41,
+   "sentence": 0
+  },
+  {
+   "text": "git",
+   "kw": true,
+   "start": 0.41,
+   "end": 0.65,
+   "sentence": 0
+  },
+  {
+   "text": "clone",
+   "kw": true,
+   "start": 0.65,
+   "end": 1.01,
+   "sentence": 0
+  },
+  {
+   "text": "could",
+   "kw": false,
+   "start": 1.01,
+   "end": 1.17,
+   "sentence": 0
+  },
+  {
+   "text": "run",
+   "kw": false,
+   "start": 1.17,
+   "end": 1.37,
+   "sentence": 0
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 1.37,
+   "end": 1.49,
+   "sentence": 0
+  },
+  {
+   "text": "hacker's",
+   "kw": true,
+   "start": 1.49,
+   "end": 1.93,
+   "sentence": 0
+  },
+  {
+   "text": "code",
+   "kw": true,
+   "start": 1.93,
+   "end": 2.21,
+   "sentence": 0
+  },
+  {
+   "text": "on",
+   "kw": false,
+   "start": 2.21,
+   "end": 2.33,
+   "sentence": 0
+  },
+  {
+   "text": "your",
+   "kw": false,
+   "start": 2.33,
+   "end": 2.53,
+   "sentence": 0
+  },
+  {
+   "text": "machine.",
+   "kw": false,
+   "start": 2.53,
+   "end": 2.841,
+   "sentence": 0
+  },
+  {
+   "text": "This",
+   "kw": false,
+   "start": 3.191,
+   "end": 3.391,
+   "sentence": 1
+  },
+  {
+   "text": "week,",
+   "kw": false,
+   "start": 3.391,
+   "end": 3.657,
+   "sentence": 1
+  },
+  {
+   "text": "Git",
+   "kw": false,
+   "start": 3.657,
+   "end": 3.871,
+   "sentence": 1
+  },
+  {
+   "text": "patched",
+   "kw": false,
+   "start": 3.871,
+   "end": 4.271,
+   "sentence": 1
+  },
+  {
+   "text": "six",
+   "kw": true,
+   "start": 4.271,
+   "end": 4.551,
+   "sentence": 1
+  },
+  {
+   "text": "vulnerabilities.",
+   "kw": true,
+   "start": 4.551,
+   "end": 5.511,
+   "sentence": 1
+  },
+  {
+   "text": "The",
+   "kw": false,
+   "start": 5.511,
+   "end": 5.711,
+   "sentence": 1
+  },
+  {
+   "text": "worst",
+   "kw": false,
+   "start": 5.711,
+   "end": 6.111,
+   "sentence": 1
+  },
+  {
+   "text": "is",
+   "kw": false,
+   "start": 6.111,
+   "end": 6.311,
+   "sentence": 1
+  },
+  {
+   "text": "rated",
+   "kw": false,
+   "start": 6.311,
+   "end": 6.791,
+   "sentence": 1
+  },
+  {
+   "text": "high",
+   "kw": true,
+   "start": 6.791,
+   "end": 7.071,
+   "sentence": 1
+  },
+  {
+   "text": "severity.",
+   "kw": false,
+   "start": 7.071,
+   "end": 7.608,
+   "sentence": 1
+  },
+  {
+   "text": "Here's",
+   "kw": false,
+   "start": 7.988,
+   "end": 8.308,
+   "sentence": 2
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 8.308,
+   "end": 8.468,
+   "sentence": 2
+  },
+  {
+   "text": "trick.",
+   "kw": false,
+   "start": 8.468,
+   "end": 8.908,
+   "sentence": 2
+  },
+  {
+   "text": "Before",
+   "kw": false,
+   "start": 8.908,
+   "end": 9.188,
+   "sentence": 2
+  },
+  {
+   "text": "Git",
+   "kw": false,
+   "start": 9.188,
+   "end": 9.428,
+   "sentence": 2
+  },
+  {
+   "text": "writes",
+   "kw": false,
+   "start": 9.428,
+   "end": 9.828,
+   "sentence": 2
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 9.828,
+   "end": 9.948,
+   "sentence": 2
+  },
+  {
+   "text": "file,",
+   "kw": false,
+   "start": 9.948,
+   "end": 10.308,
+   "sentence": 2
+  },
+  {
+   "text": "it",
+   "kw": false,
+   "start": 10.308,
+   "end": 10.468,
+   "sentence": 2
+  },
+  {
+   "text": "checks",
+   "kw": true,
+   "start": 10.468,
+   "end": 10.868,
+   "sentence": 2
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 10.868,
+   "end": 11.028,
+   "sentence": 2
+  },
+  {
+   "text": "path,",
+   "kw": true,
+   "start": 11.028,
+   "end": 11.428,
+   "sentence": 2
+  },
+  {
+   "text": "so",
+   "kw": false,
+   "start": 11.428,
+   "end": 11.668,
+   "sentence": 2
+  },
+  {
+   "text": "nothing",
+   "kw": false,
+   "start": 11.668,
+   "end": 11.988,
+   "sentence": 2
+  },
+  {
+   "text": "can",
+   "kw": false,
+   "start": 11.988,
+   "end": 12.268,
+   "sentence": 2
+  },
+  {
+   "text": "overwrite",
+   "kw": false,
+   "start": 12.268,
+   "end": 12.788,
+   "sentence": 2
+  },
+  {
+   "text": "its",
+   "kw": false,
+   "start": 12.788,
+   "end": 13.028,
+   "sentence": 2
+  },
+  {
+   "text": "own",
+   "kw": false,
+   "start": 13.028,
+   "end": 13.268,
+   "sentence": 2
+  },
+  {
+   "text": ".git",
+   "kw": true,
+   "start": 13.268,
+   "end": 13.908,
+   "sentence": 2
+  },
+  {
+   "text": "data.",
+   "kw": false,
+   "start": 13.908,
+   "end": 14.152,
+   "sentence": 2
+  },
+  {
+   "text": "But",
+   "kw": false,
+   "start": 14.512,
+   "end": 14.592,
+   "sentence": 3
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 14.592,
+   "end": 14.752,
+   "sentence": 3
+  },
+  {
+   "text": "attacker",
+   "kw": false,
+   "start": 14.752,
+   "end": 15.232,
+   "sentence": 3
+  },
+  {
+   "text": "uses",
+   "kw": false,
+   "start": 15.232,
+   "end": 15.632,
+   "sentence": 3
+  },
+  {
+   "text": "an",
+   "kw": false,
+   "start": 15.632,
+   "end": 15.792,
+   "sentence": 3
+  },
+  {
+   "text": "extremely",
+   "kw": true,
+   "start": 15.792,
+   "end": 16.512,
+   "sentence": 3
+  },
+  {
+   "text": "long",
+   "kw": true,
+   "start": 16.512,
+   "end": 16.792,
+   "sentence": 3
+  },
+  {
+   "text": "path.",
+   "kw": true,
+   "start": 16.792,
+   "end": 17.232,
+   "sentence": 3
+  },
+  {
+   "text": "Its",
+   "kw": false,
+   "start": 17.232,
+   "end": 17.552,
+   "sentence": 3
+  },
+  {
+   "text": "length",
+   "kw": false,
+   "start": 17.552,
+   "end": 17.912,
+   "sentence": 3
+  },
+  {
+   "text": "gets",
+   "kw": false,
+   "start": 17.912,
+   "end": 18.272,
+   "sentence": 3
+  },
+  {
+   "text": "truncated.",
+   "kw": true,
+   "start": 18.272,
+   "end": 18.952,
+   "sentence": 3
+  },
+  {
+   "text": "So",
+   "kw": false,
+   "start": 18.952,
+   "end": 19.152,
+   "sentence": 3
+  },
+  {
+   "text": "it",
+   "kw": false,
+   "start": 19.152,
+   "end": 19.312,
+   "sentence": 3
+  },
+  {
+   "text": "passes",
+   "kw": false,
+   "start": 19.312,
+   "end": 19.792,
+   "sentence": 3
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 19.792,
+   "end": 19.912,
+   "sentence": 3
+  },
+  {
+   "text": "check",
+   "kw": false,
+   "start": 19.912,
+   "end": 20.232,
+   "sentence": 3
+  },
+  {
+   "text": "under",
+   "kw": false,
+   "start": 20.232,
+   "end": 20.432,
+   "sentence": 3
+  },
+  {
+   "text": "its",
+   "kw": false,
+   "start": 20.432,
+   "end": 20.672,
+   "sentence": 3
+  },
+  {
+   "text": "full",
+   "kw": false,
+   "start": 20.672,
+   "end": 20.952,
+   "sentence": 3
+  },
+  {
+   "text": "name,",
+   "kw": false,
+   "start": 20.952,
+   "end": 21.272,
+   "sentence": 3
+  },
+  {
+   "text": "then",
+   "kw": false,
+   "start": 21.272,
+   "end": 21.512,
+   "sentence": 3
+  },
+  {
+   "text": "gets",
+   "kw": false,
+   "start": 21.512,
+   "end": 21.792,
+   "sentence": 3
+  },
+  {
+   "text": "written",
+   "kw": false,
+   "start": 21.792,
+   "end": 22.232,
+   "sentence": 3
+  },
+  {
+   "text": "under",
+   "kw": false,
+   "start": 22.232,
+   "end": 22.432,
+   "sentence": 3
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 22.432,
+   "end": 22.592,
+   "sentence": 3
+  },
+  {
+   "text": "shorter",
+   "kw": false,
+   "start": 22.592,
+   "end": 23.152,
+   "sentence": 3
+  },
+  {
+   "text": "one:",
+   "kw": false,
+   "start": 23.152,
+   "end": 23.512,
+   "sentence": 3
+  },
+  {
+   "text": ".git",
+   "kw": true,
+   "start": 23.512,
+   "end": 24.114,
+   "sentence": 3
+  },
+  {
+   "text": "Inside",
+   "kw": false,
+   "start": 24.474,
+   "end": 24.874,
+   "sentence": 4
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 24.874,
+   "end": 25.022,
+   "sentence": 4
+  },
+  {
+   "text": "submodule,",
+   "kw": true,
+   "start": 25.022,
+   "end": 25.834,
+   "sentence": 4
+  },
+  {
+   "text": "that",
+   "kw": false,
+   "start": 25.834,
+   "end": 26.074,
+   "sentence": 4
+  },
+  {
+   "text": "file",
+   "kw": false,
+   "start": 26.074,
+   "end": 26.474,
+   "sentence": 4
+  },
+  {
+   "text": "becomes",
+   "kw": false,
+   "start": 26.474,
+   "end": 26.874,
+   "sentence": 4
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 26.874,
+   "end": 27.042,
+   "sentence": 4
+  },
+  {
+   "text": "symlink,",
+   "kw": true,
+   "start": 27.042,
+   "end": 27.714,
+   "sentence": 4
+  },
+  {
+   "text": "pointing",
+   "kw": false,
+   "start": 27.714,
+   "end": 28.114,
+   "sentence": 4
+  },
+  {
+   "text": "at",
+   "kw": false,
+   "start": 28.114,
+   "end": 28.274,
+   "sentence": 4
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 28.274,
+   "end": 28.394,
+   "sentence": 4
+  },
+  {
+   "text": "folder",
+   "kw": false,
+   "start": 28.394,
+   "end": 28.834,
+   "sentence": 4
+  },
+  {
+   "text": "of",
+   "kw": false,
+   "start": 28.834,
+   "end": 28.994,
+   "sentence": 4
+  },
+  {
+   "text": "malicious",
+   "kw": true,
+   "start": 28.994,
+   "end": 29.554,
+   "sentence": 4
+  },
+  {
+   "text": "hooks.",
+   "kw": true,
+   "start": 29.554,
+   "end": 29.856,
+   "sentence": 4
+  },
+  {
+   "text": "When",
+   "kw": false,
+   "start": 30.216,
+   "end": 30.296,
+   "sentence": 5
+  },
+  {
+   "text": "Git",
+   "kw": false,
+   "start": 30.296,
+   "end": 30.576,
+   "sentence": 5
+  },
+  {
+   "text": "uses",
+   "kw": false,
+   "start": 30.576,
+   "end": 30.896,
+   "sentence": 5
+  },
+  {
+   "text": "that",
+   "kw": false,
+   "start": 30.896,
+   "end": 31.056,
+   "sentence": 5
+  },
+  {
+   "text": "folder,",
+   "kw": false,
+   "start": 31.056,
+   "end": 31.456,
+   "sentence": 5
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 31.456,
+   "end": 31.656,
+   "sentence": 5
+  },
+  {
+   "text": "attacker's",
+   "kw": true,
+   "start": 31.656,
+   "end": 32.296,
+   "sentence": 5
+  },
+  {
+   "text": "code",
+   "kw": true,
+   "start": 32.296,
+   "end": 32.616,
+   "sentence": 5
+  },
+  {
+   "text": "runs.",
+   "kw": false,
+   "start": 32.616,
+   "end": 33.096,
+   "sentence": 5
+  },
+  {
+   "text": "On",
+   "kw": false,
+   "start": 33.096,
+   "end": 33.296,
+   "sentence": 5
+  },
+  {
+   "text": "your",
+   "kw": false,
+   "start": 33.296,
+   "end": 33.496,
+   "sentence": 5
+  },
+  {
+   "text": "laptop,",
+   "kw": false,
+   "start": 33.496,
+   "end": 34.176,
+   "sentence": 5
+  },
+  {
+   "text": "or",
+   "kw": false,
+   "start": 34.176,
+   "end": 34.336,
+   "sentence": 5
+  },
+  {
+   "text": "your",
+   "kw": false,
+   "start": 34.336,
+   "end": 34.576,
+   "sentence": 5
+  },
+  {
+   "text": "CI",
+   "kw": true,
+   "start": 34.576,
+   "end": 34.976,
+   "sentence": 5
+  },
+  {
+   "text": "runner.",
+   "kw": false,
+   "start": 34.976,
+   "end": 35.346,
+   "sentence": 5
+  },
+  {
+   "text": "It",
+   "kw": false,
+   "start": 35.726,
+   "end": 35.886,
+   "sentence": 6
+  },
+  {
+   "text": "only",
+   "kw": false,
+   "start": 35.886,
+   "end": 36.086,
+   "sentence": 6
+  },
+  {
+   "text": "triggers",
+   "kw": false,
+   "start": 36.086,
+   "end": 36.606,
+   "sentence": 6
+  },
+  {
+   "text": "with",
+   "kw": false,
+   "start": 36.606,
+   "end": 36.766,
+   "sentence": 6
+  },
+  {
+   "text": "--recurse-submodules,",
+   "kw": true,
+   "start": 36.766,
+   "end": 38.086,
+   "sentence": 6
+  },
+  {
+   "text": "which",
+   "kw": false,
+   "start": 38.086,
+   "end": 38.326,
+   "sentence": 6
+  },
+  {
+   "text": "pipelines",
+   "kw": false,
+   "start": 38.326,
+   "end": 38.966,
+   "sentence": 6
+  },
+  {
+   "text": "and",
+   "kw": false,
+   "start": 38.966,
+   "end": 39.166,
+   "sentence": 6
+  },
+  {
+   "text": "coding",
+   "kw": false,
+   "start": 39.166,
+   "end": 39.606,
+   "sentence": 6
+  },
+  {
+   "text": "agents",
+   "kw": false,
+   "start": 39.606,
+   "end": 40.086,
+   "sentence": 6
+  },
+  {
+   "text": "use",
+   "kw": false,
+   "start": 40.086,
+   "end": 40.406,
+   "sentence": 6
+  },
+  {
+   "text": "all",
+   "kw": false,
+   "start": 40.406,
+   "end": 40.606,
+   "sentence": 6
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 40.606,
+   "end": 40.846,
+   "sentence": 6
+  },
+  {
+   "text": "time.",
+   "kw": false,
+   "start": 40.846,
+   "end": 40.913,
+   "sentence": 6
+  },
+  {
+   "text": "The",
+   "kw": false,
+   "start": 41.293,
+   "end": 41.453,
+   "sentence": 7
+  },
+  {
+   "text": "fix:",
+   "kw": false,
+   "start": 41.453,
+   "end": 41.853,
+   "sentence": 7
+  },
+  {
+   "text": "update",
+   "kw": true,
+   "start": 41.853,
+   "end": 42.253,
+   "sentence": 7
+  },
+  {
+   "text": "to",
+   "kw": false,
+   "start": 42.253,
+   "end": 42.407,
+   "sentence": 7
+  },
+  {
+   "text": "Git",
+   "kw": false,
+   "start": 42.407,
+   "end": 42.613,
+   "sentence": 7
+  },
+  {
+   "text": "2.56.1,",
+   "kw": true,
+   "start": 42.613,
+   "end": 44.333,
+   "sentence": 7
+  },
+  {
+   "text": "or",
+   "kw": false,
+   "start": 44.333,
+   "end": 44.493,
+   "sentence": 7
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 44.493,
+   "end": 44.653,
+   "sentence": 7
+  },
+  {
+   "text": "patched",
+   "kw": false,
+   "start": 44.653,
+   "end": 45.093,
+   "sentence": 7
+  },
+  {
+   "text": "backport.",
+   "kw": true,
+   "start": 45.093,
+   "end": 45.589,
+   "sentence": 7
+  },
+  {
+   "text": "Can't",
+   "kw": false,
+   "start": 45.949,
+   "end": 46.188,
+   "sentence": 8
+  },
+  {
+   "text": "update",
+   "kw": false,
+   "start": 46.188,
+   "end": 46.668,
+   "sentence": 8
+  },
+  {
+   "text": "yet?",
+   "kw": false,
+   "start": 46.668,
+   "end": 47.028,
+   "sentence": 8
+  },
+  {
+   "text": "Clone",
+   "kw": false,
+   "start": 47.028,
+   "end": 47.468,
+   "sentence": 8
+  },
+  {
+   "text": "without",
+   "kw": true,
+   "start": 47.468,
+   "end": 47.964,
+   "sentence": 8
+  },
+  {
+   "text": "submodules",
+   "kw": false,
+   "start": 47.964,
+   "end": 48.708,
+   "sentence": 8
+  },
+  {
+   "text": "first,",
+   "kw": false,
+   "start": 48.708,
+   "end": 48.949,
+   "sentence": 8
+  },
+  {
+   "text": "and",
+   "kw": false,
+   "start": 48.949,
+   "end": 49.148,
+   "sentence": 8
+  },
+  {
+   "text": "inspect",
+   "kw": true,
+   "start": 49.148,
+   "end": 49.708,
+   "sentence": 8
+  },
+  {
+   "text": ".gitmodules",
+   "kw": true,
+   "start": 49.708,
+   "end": 50.779,
+   "sentence": 8
+  },
+  {
+   "text": "A",
+   "kw": false,
+   "start": 51.199,
+   "end": 51.279,
+   "sentence": 9
+  },
+  {
+   "text": "repo",
+   "kw": false,
+   "start": 51.279,
+   "end": 51.679,
+   "sentence": 9
+  },
+  {
+   "text": "is",
+   "kw": false,
+   "start": 51.679,
+   "end": 51.839,
+   "sentence": 9
+  },
+  {
+   "text": "code",
+   "kw": true,
+   "start": 51.839,
+   "end": 52.199,
+   "sentence": 9
+  },
+  {
+   "text": "from",
+   "kw": false,
+   "start": 52.199,
+   "end": 52.399,
+   "sentence": 9
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 52.399,
+   "end": 52.519,
+   "sentence": 9
+  },
+  {
+   "text": "stranger.",
+   "kw": true,
+   "start": 52.519,
+   "end": 53.159,
+   "sentence": 9
+  },
+  {
+   "text": "Treat",
+   "kw": false,
+   "start": 53.159,
+   "end": 53.479,
+   "sentence": 9
+  },
+  {
+   "text": "it",
+   "kw": false,
+   "start": 53.479,
+   "end": 53.679,
+   "sentence": 9
+  },
+  {
+   "text": "that",
+   "kw": false,
+   "start": 53.679,
+   "end": 53.959,
+   "sentence": 9
+  },
+  {
+   "text": "way.",
+   "kw": false,
+   "start": 53.959,
+   "end": 54.051,
+   "sentence": 9
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.25,
+   "end": 1.01,
+   "words": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "start": 1.01,
+   "end": 1.49,
+   "words": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "start": 1.49,
+   "end": 2.33,
+   "words": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "start": 2.33,
+   "end": 3.191,
+   "words": [
+    9,
+    10
+   ]
+  },
+  {
+   "start": 3.191,
+   "end": 3.657,
+   "words": [
+    11,
+    12
+   ]
+  },
+  {
+   "start": 3.657,
+   "end": 4.551,
+   "words": [
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "start": 4.551,
+   "end": 5.511,
+   "words": [
+    16
+   ]
+  },
+  {
+   "start": 5.511,
+   "end": 6.311,
+   "words": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "start": 6.311,
+   "end": 7.957999999999999,
+   "words": [
+    20,
+    21,
+    22
+   ]
+  },
+  {
+   "start": 7.988,
+   "end": 8.908,
+   "words": [
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "start": 8.908,
+   "end": 9.828,
+   "words": [
+    26,
+    27,
+    28
+   ]
+  },
+  {
+   "start": 9.828,
+   "end": 10.308,
+   "words": [
+    29,
+    30
+   ]
+  },
+  {
+   "start": 10.308,
+   "end": 11.028,
+   "words": [
+    31,
+    32,
+    33
+   ]
+  },
+  {
+   "start": 11.028,
+   "end": 11.428,
+   "words": [
+    34
+   ]
+  },
+  {
+   "start": 11.428,
+   "end": 12.268,
+   "words": [
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "start": 12.268,
+   "end": 13.268,
+   "words": [
+    38,
+    39,
+    40
+   ]
+  },
+  {
+   "start": 13.268,
+   "end": 14.501999999999999,
+   "words": [
+    41,
+    42
+   ]
+  },
+  {
+   "start": 14.512,
+   "end": 15.232,
+   "words": [
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "start": 15.232,
+   "end": 16.512,
+   "words": [
+    46,
+    47,
+    48
+   ]
+  },
+  {
+   "start": 16.512,
+   "end": 17.232,
+   "words": [
+    49,
+    50
+   ]
+  },
+  {
+   "start": 17.232,
+   "end": 18.272,
+   "words": [
+    51,
+    52,
+    53
+   ]
+  },
+  {
+   "start": 18.272,
+   "end": 18.952,
+   "words": [
+    54
+   ]
+  },
+  {
+   "start": 18.952,
+   "end": 19.792,
+   "words": [
+    55,
+    56,
+    57
+   ]
+  },
+  {
+   "start": 19.792,
+   "end": 20.432,
+   "words": [
+    58,
+    59,
+    60
+   ]
+  },
+  {
+   "start": 20.432,
+   "end": 21.272,
+   "words": [
+    61,
+    62,
+    63
+   ]
+  },
+  {
+   "start": 21.272,
+   "end": 22.232,
+   "words": [
+    64,
+    65,
+    66
+   ]
+  },
+  {
+   "start": 22.232,
+   "end": 23.152,
+   "words": [
+    67,
+    68,
+    69
+   ]
+  },
+  {
+   "start": 23.152,
+   "end": 23.512,
+   "words": [
+    70
+   ]
+  },
+  {
+   "start": 23.512,
+   "end": 24.464000000000002,
+   "words": [
+    71
+   ]
+  },
+  {
+   "start": 24.474,
+   "end": 25.834,
+   "words": [
+    72,
+    73,
+    74
+   ]
+  },
+  {
+   "start": 25.834,
+   "end": 26.874,
+   "words": [
+    75,
+    76,
+    77
+   ]
+  },
+  {
+   "start": 26.874,
+   "end": 27.714,
+   "words": [
+    78,
+    79
+   ]
+  },
+  {
+   "start": 27.714,
+   "end": 28.394,
+   "words": [
+    80,
+    81,
+    82
+   ]
+  },
+  {
+   "start": 28.394,
+   "end": 29.554,
+   "words": [
+    83,
+    84,
+    85
+   ]
+  },
+  {
+   "start": 29.554,
+   "end": 30.206000000000003,
+   "words": [
+    86
+   ]
+  },
+  {
+   "start": 30.216,
+   "end": 30.896,
+   "words": [
+    87,
+    88,
+    89
+   ]
+  },
+  {
+   "start": 30.896,
+   "end": 31.456,
+   "words": [
+    90,
+    91
+   ]
+  },
+  {
+   "start": 31.456,
+   "end": 32.616,
+   "words": [
+    92,
+    93,
+    94
+   ]
+  },
+  {
+   "start": 32.616,
+   "end": 33.096,
+   "words": [
+    95
+   ]
+  },
+  {
+   "start": 33.096,
+   "end": 34.176,
+   "words": [
+    96,
+    97,
+    98
+   ]
+  },
+  {
+   "start": 34.176,
+   "end": 34.976,
+   "words": [
+    99,
+    100,
+    101
+   ]
+  },
+  {
+   "start": 34.976,
+   "end": 35.696,
+   "words": [
+    102
+   ]
+  },
+  {
+   "start": 35.726,
+   "end": 36.606,
+   "words": [
+    103,
+    104,
+    105
+   ]
+  },
+  {
+   "start": 36.606,
+   "end": 36.766,
+   "words": [
+    106
+   ]
+  },
+  {
+   "start": 36.766,
+   "end": 38.086,
+   "words": [
+    107
+   ]
+  },
+  {
+   "start": 38.086,
+   "end": 39.166,
+   "words": [
+    108,
+    109,
+    110
+   ]
+  },
+  {
+   "start": 39.166,
+   "end": 40.406,
+   "words": [
+    111,
+    112,
+    113
+   ]
+  },
+  {
+   "start": 40.406,
+   "end": 41.263,
+   "words": [
+    114,
+    115,
+    116
+   ]
+  },
+  {
+   "start": 41.293,
+   "end": 41.853,
+   "words": [
+    117,
+    118
+   ]
+  },
+  {
+   "start": 41.853,
+   "end": 42.613,
+   "words": [
+    119,
+    120,
+    121
+   ]
+  },
+  {
+   "start": 42.613,
+   "end": 44.333,
+   "words": [
+    122
+   ]
+  },
+  {
+   "start": 44.333,
+   "end": 45.093,
+   "words": [
+    123,
+    124,
+    125
+   ]
+  },
+  {
+   "start": 45.093,
+   "end": 45.939,
+   "words": [
+    126
+   ]
+  },
+  {
+   "start": 45.949,
+   "end": 47.028,
+   "words": [
+    127,
+    128,
+    129
+   ]
+  },
+  {
+   "start": 47.028,
+   "end": 47.964,
+   "words": [
+    130,
+    131
+   ]
+  },
+  {
+   "start": 47.964,
+   "end": 48.949,
+   "words": [
+    132,
+    133
+   ]
+  },
+  {
+   "start": 48.949,
+   "end": 49.708,
+   "words": [
+    134,
+    135
+   ]
+  },
+  {
+   "start": 49.708,
+   "end": 51.129000000000005,
+   "words": [
+    136
+   ]
+  },
+  {
+   "start": 51.199,
+   "end": 51.839,
+   "words": [
+    137,
+    138,
+    139
+   ]
+  },
+  {
+   "start": 51.839,
+   "end": 52.519,
+   "words": [
+    140,
+    141,
+    142
+   ]
+  },
+  {
+   "start": 52.519,
+   "end": 53.159,
+   "words": [
+    143
+   ]
+  },
+  {
+   "start": 53.159,
+   "end": 53.959,
+   "words": [
+    144,
+    145,
+    146
+   ]
+  },
+  {
+   "start": 53.959,
+   "end": 54.651,
+   "words": [
+    147
+   ]
+  }
+ ]
+}

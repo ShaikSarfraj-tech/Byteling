@@ -1,6 +1,6 @@
 # YouTube upload metadata — Episode 1
 
-**File:** `output/docker-container-is-not-a-vm.mp4`  (Shorts, 58s, 9:16)
+**File:** `episodes/2026-11-11-docker-not-a-vm/video.mp4`  (Shorts, 58s, 9:16)
 
 ## Title (59 chars)
 A Docker Container Is NOT a Tiny VM (It's Just a Process) #shorts
@@ -30,6 +30,6 @@ docker, docker container, docker vs virtual machine, container vs vm, what is do
 - Language: English
 - Made for kids: No
 - Altered/synthetic content: Yes (AI-generated voice)
-- Captions: upload `output/captions.srt` (English)
+- Captions: upload `captions.srt` (English)
 - Visibility: Public (or Scheduled)
 - Pinned comment: "Which should I break down next: Kubernetes pods, JWTs, or database indexes?"

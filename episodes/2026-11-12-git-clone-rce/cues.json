@@ -1,0 +1,229 @@
+{
+ "c": {
+  "code": 1.49,
+  "news": 3.191,
+  "six": 4.271,
+  "high": 6.791,
+  "trick": 7.988,
+  "writes": 9.428,
+  "checks": 10.468,
+  "nothing": 11.668,
+  "dotgit": 13.268,
+  "att": 14.512,
+  "long": 15.792,
+  "trunc": 18.272,
+  "passes": 19.312,
+  "written": 21.792,
+  "shorter": 22.592,
+  "dotgit2": 23.512,
+  "sub": 24.474,
+  "submodule": 25.022,
+  "symlink": 27.042,
+  "folder": 28.394,
+  "hooks": 29.554,
+  "run": 30.216,
+  "uses": 30.576,
+  "runs": 31.656,
+  "laptop": 33.496,
+  "ci": 34.576,
+  "flag": 35.726,
+  "flagw": 36.766,
+  "pipelines": 38.326,
+  "agents": 39.606,
+  "fix": 41.293,
+  "update": 41.853,
+  "ver": 42.613,
+  "backport": 45.093,
+  "wk": 45.949,
+  "clone": 47.028,
+  "inspect": 49.148,
+  "mods": 49.708,
+  "end": 51.199,
+  "stranger": 52.519,
+  "treat": 53.159,
+  "duration": 54.951
+ },
+ "sfx": [
+  {
+   "type": "type",
+   "t": 0.3,
+   "dur": 2.0
+  },
+  {
+   "type": "click",
+   "t": 1.54
+  },
+  {
+   "type": "whoosh",
+   "t": 3.141
+  },
+  {
+   "type": "click",
+   "t": 4.321
+  },
+  {
+   "type": "click",
+   "t": 6.841
+  },
+  {
+   "type": "whoosh",
+   "t": 7.938
+  },
+  {
+   "type": "thud",
+   "t": 10.028,
+   "gain": 0.7
+  },
+  {
+   "type": "thud",
+   "t": 10.378,
+   "gain": 0.7
+  },
+  {
+   "type": "click",
+   "t": 10.518
+  },
+  {
+   "type": "thud",
+   "t": 10.728,
+   "gain": 0.7
+  },
+  {
+   "type": "zap",
+   "t": 11.968,
+   "gain": 0.5
+  },
+  {
+   "type": "click",
+   "t": 13.318
+  },
+  {
+   "type": "whoosh",
+   "t": 14.462
+  },
+  {
+   "type": "click",
+   "t": 15.842
+  },
+  {
+   "type": "power",
+   "t": 18.272
+  },
+  {
+   "type": "click",
+   "t": 19.362
+  },
+  {
+   "type": "click",
+   "t": 22.642
+  },
+  {
+   "type": "thud",
+   "t": 23.762
+  },
+  {
+   "type": "whoosh",
+   "t": 24.424
+  },
+  {
+   "type": "click",
+   "t": 25.072
+  },
+  {
+   "type": "click",
+   "t": 27.092
+  },
+  {
+   "type": "click",
+   "t": 29.604
+  },
+  {
+   "type": "whoosh",
+   "t": 30.166
+  },
+  {
+   "type": "alarm",
+   "t": 30.576,
+   "dur": 1.0799999999999983
+  },
+  {
+   "type": "zap",
+   "t": 31.756
+  },
+  {
+   "type": "click",
+   "t": 33.546
+  },
+  {
+   "type": "click",
+   "t": 34.626
+  },
+  {
+   "type": "whoosh",
+   "t": 35.676
+  },
+  {
+   "type": "click",
+   "t": 36.816
+  },
+  {
+   "type": "click",
+   "t": 38.376
+  },
+  {
+   "type": "click",
+   "t": 39.656
+  },
+  {
+   "type": "whoosh",
+   "t": 41.243
+  },
+  {
+   "type": "type",
+   "t": 41.853,
+   "dur": 0.6
+  },
+  {
+   "type": "power",
+   "t": 42.153
+  },
+  {
+   "type": "click",
+   "t": 42.713
+  },
+  {
+   "type": "click",
+   "t": 45.143
+  },
+  {
+   "type": "whoosh",
+   "t": 45.899
+  },
+  {
+   "type": "type",
+   "t": 47.028,
+   "dur": 0.7
+  },
+  {
+   "type": "type",
+   "t": 49.148,
+   "dur": 0.8
+  },
+  {
+   "type": "click",
+   "t": 49.758
+  },
+  {
+   "type": "whoosh",
+   "t": 51.149
+  },
+  {
+   "type": "click",
+   "t": 52.569
+  },
+  {
+   "type": "click",
+   "t": 53.209
+  }
+ ]
+}

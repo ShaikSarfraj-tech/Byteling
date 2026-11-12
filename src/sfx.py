@@ -4,7 +4,8 @@ import json
 from pathlib import Path
 import numpy as np, soundfile as sf
 from scipy.signal import butter, sosfilt
-OUT = Path(__file__).resolve().parent.parent / "output"
+import os
+OUT = Path(__file__).resolve().parent.parent / "episodes" / os.environ["EP"]
 SR = 48000
 rng = np.random.default_rng(7)
 cues = json.loads((OUT / "cues.json").read_text())

@@ -3,11 +3,12 @@ alignment with sherpa-onnx), SRT captions and timings.json."""
 import json, re, sys, difflib
 from pathlib import Path
 import numpy as np, soundfile as sf
-sys.path.insert(0, str(Path(__file__).parent))
-import script as S
-
+import os
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "output"; OUT.mkdir(exist_ok=True)
+EP = os.environ["EP"]
+sys.path.insert(0, str(ROOT / "src" / "episodes" / EP))
+import script as S
+OUT = ROOT / "episodes" / EP; OUT.mkdir(parents=True, exist_ok=True)
 M = ROOT / "models"
 SR = 24000
 LEAD_IN = 0.25

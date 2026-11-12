@@ -1,6 +1,7 @@
 // Deterministic, time-driven scene: window.renderFrame(t) draws the exact frame for time t.
 import * as THREE from '/node_modules/three/build/three.module.js';
 
+const EP = new URLSearchParams(location.search).get('ep');
 const W = 1080, H = 1920, VOFF = 190;           // VOFF lifts the 3D subject above the caption zone
 const $ = (id) => document.getElementById(id);
 const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
@@ -456,7 +457,7 @@ function frame(t) {
 
 // ───────────────────────── boot
 window.init = async () => {
-  const [tm, cu] = await Promise.all([fetch('/output/timings.json').then((r) => r.json()), fetch('/output/cues.json').then((r) => r.json())]);
+  const [tm, cu] = await Promise.all([fetch('../../../episodes/' + EP + '/timings.json').then((r) => r.json()), fetch('../../../episodes/' + EP + '/cues.json').then((r) => r.json())]);
   T = tm; C = cu.c;
   await Promise.all(["900 92px Inter", "800 96px Inter", "700 96px 'JetBrains Mono'", "500 37px 'JetBrains Mono'", "700 34px 'JetBrains Mono'"].map((f) => document.fonts.load(f)));
   build();
