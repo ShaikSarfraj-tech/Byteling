@@ -1,0 +1,1363 @@
+{
+ "duration": 51.059,
+ "sentences": [
+  {
+   "index": 0,
+   "start": 0.25,
+   "end": 6.44,
+   "text": "Go's JSON package has been quietly hiding bugs for years. Go 1.27 finally fixes it."
+  },
+  {
+   "index": 1,
+   "start": 6.84,
+   "end": 9.483,
+   "text": "Meet json/v2, now generally available."
+  },
+  {
+   "index": 2,
+   "start": 9.863,
+   "end": 18.982,
+   "text": "Problem one. The old package matched field names case insensitively. So a wrong key could silently fill your field. V2 needs an exact match."
+  },
+  {
+   "index": 3,
+   "start": 19.362,
+   "end": 25.15,
+   "text": "Problem two. Duplicate keys. V1 silently accepted them. V2 returns an error."
+  },
+  {
+   "index": 4,
+   "start": 25.53,
+   "end": 31.654,
+   "text": "Problem three. A nil slice was written as null, and broke your front end. V2 writes an empty array."
+  },
+  {
+   "index": 5,
+   "start": 32.034,
+   "end": 36.455,
+   "text": "It's also faster. Early benchmarks report decoding around twice as fast."
+  },
+  {
+   "index": 6,
+   "start": 36.835,
+   "end": 43.496,
+   "text": "The best part? Your old imports still work. The classic package now runs on the new engine, with the old behavior."
+  },
+  {
+   "index": 7,
+   "start": 43.896,
+   "end": 50.159,
+   "text": "So upgrade, then move to v2 one package at a time. Strict by default beats surprising by default."
+  }
+ ],
+ "words": [
+  {
+   "text": "Go's",
+   "kw": false,
+   "start": 0.25,
+   "end": 0.57,
+   "sentence": 0
+  },
+  {
+   "text": "JSON",
+   "kw": true,
+   "start": 0.57,
+   "end": 1.09,
+   "sentence": 0
+  },
+  {
+   "text": "package",
+   "kw": false,
+   "start": 1.09,
+   "end": 1.61,
+   "sentence": 0
+  },
+  {
+   "text": "has",
+   "kw": false,
+   "start": 1.61,
+   "end": 1.77,
+   "sentence": 0
+  },
+  {
+   "text": "been",
+   "kw": false,
+   "start": 1.77,
+   "end": 1.97,
+   "sentence": 0
+  },
+  {
+   "text": "quietly",
+   "kw": false,
+   "start": 1.97,
+   "end": 2.53,
+   "sentence": 0
+  },
+  {
+   "text": "hiding",
+   "kw": true,
+   "start": 2.53,
+   "end": 2.93,
+   "sentence": 0
+  },
+  {
+   "text": "bugs",
+   "kw": true,
+   "start": 2.93,
+   "end": 3.37,
+   "sentence": 0
+  },
+  {
+   "text": "for",
+   "kw": false,
+   "start": 3.37,
+   "end": 3.61,
+   "sentence": 0
+  },
+  {
+   "text": "years.",
+   "kw": false,
+   "start": 3.61,
+   "end": 4.09,
+   "sentence": 0
+  },
+  {
+   "text": "Go",
+   "kw": false,
+   "start": 4.09,
+   "end": 4.37,
+   "sentence": 0
+  },
+  {
+   "text": "1.27",
+   "kw": true,
+   "start": 4.37,
+   "end": 5.41,
+   "sentence": 0
+  },
+  {
+   "text": "finally",
+   "kw": false,
+   "start": 5.41,
+   "end": 5.93,
+   "sentence": 0
+  },
+  {
+   "text": "fixes",
+   "kw": true,
+   "start": 5.93,
+   "end": 6.45,
+   "sentence": 0
+  },
+  {
+   "text": "it.",
+   "kw": false,
+   "start": 6.45,
+   "end": 6.44,
+   "sentence": 0
+  },
+  {
+   "text": "Meet",
+   "kw": false,
+   "start": 6.84,
+   "end": 7.12,
+   "sentence": 1
+  },
+  {
+   "text": "json/v2,",
+   "kw": true,
+   "start": 7.12,
+   "end": 8.12,
+   "sentence": 1
+  },
+  {
+   "text": "now",
+   "kw": false,
+   "start": 8.12,
+   "end": 8.4,
+   "sentence": 1
+  },
+  {
+   "text": "generally",
+   "kw": false,
+   "start": 8.4,
+   "end": 8.96,
+   "sentence": 1
+  },
+  {
+   "text": "available.",
+   "kw": false,
+   "start": 8.96,
+   "end": 9.483,
+   "sentence": 1
+  },
+  {
+   "text": "Problem",
+   "kw": false,
+   "start": 9.863,
+   "end": 10.383,
+   "sentence": 2
+  },
+  {
+   "text": "one.",
+   "kw": false,
+   "start": 10.383,
+   "end": 10.703,
+   "sentence": 2
+  },
+  {
+   "text": "The",
+   "kw": false,
+   "start": 10.703,
+   "end": 10.903,
+   "sentence": 2
+  },
+  {
+   "text": "old",
+   "kw": false,
+   "start": 10.903,
+   "end": 11.143,
+   "sentence": 2
+  },
+  {
+   "text": "package",
+   "kw": false,
+   "start": 11.143,
+   "end": 11.703,
+   "sentence": 2
+  },
+  {
+   "text": "matched",
+   "kw": false,
+   "start": 11.703,
+   "end": 12.103,
+   "sentence": 2
+  },
+  {
+   "text": "field",
+   "kw": false,
+   "start": 12.103,
+   "end": 12.423,
+   "sentence": 2
+  },
+  {
+   "text": "names",
+   "kw": false,
+   "start": 12.423,
+   "end": 12.863,
+   "sentence": 2
+  },
+  {
+   "text": "case",
+   "kw": true,
+   "start": 12.863,
+   "end": 13.183,
+   "sentence": 2
+  },
+  {
+   "text": "insensitively.",
+   "kw": true,
+   "start": 13.183,
+   "end": 14.183,
+   "sentence": 2
+  },
+  {
+   "text": "So",
+   "kw": false,
+   "start": 14.183,
+   "end": 14.423,
+   "sentence": 2
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 14.423,
+   "end": 14.543,
+   "sentence": 2
+  },
+  {
+   "text": "wrong",
+   "kw": false,
+   "start": 14.543,
+   "end": 14.863,
+   "sentence": 2
+  },
+  {
+   "text": "key",
+   "kw": false,
+   "start": 14.863,
+   "end": 15.183,
+   "sentence": 2
+  },
+  {
+   "text": "could",
+   "kw": false,
+   "start": 15.183,
+   "end": 15.383,
+   "sentence": 2
+  },
+  {
+   "text": "silently",
+   "kw": false,
+   "start": 15.383,
+   "end": 16.023,
+   "sentence": 2
+  },
+  {
+   "text": "fill",
+   "kw": false,
+   "start": 16.023,
+   "end": 16.303,
+   "sentence": 2
+  },
+  {
+   "text": "your",
+   "kw": false,
+   "start": 16.303,
+   "end": 16.543,
+   "sentence": 2
+  },
+  {
+   "text": "field.",
+   "kw": false,
+   "start": 16.543,
+   "end": 16.975,
+   "sentence": 2
+  },
+  {
+   "text": "V2",
+   "kw": false,
+   "start": 16.975,
+   "end": 17.623,
+   "sentence": 2
+  },
+  {
+   "text": "needs",
+   "kw": false,
+   "start": 17.623,
+   "end": 17.983,
+   "sentence": 2
+  },
+  {
+   "text": "an",
+   "kw": false,
+   "start": 17.983,
+   "end": 18.183,
+   "sentence": 2
+  },
+  {
+   "text": "exact",
+   "kw": true,
+   "start": 18.183,
+   "end": 18.703,
+   "sentence": 2
+  },
+  {
+   "text": "match.",
+   "kw": false,
+   "start": 18.703,
+   "end": 18.982,
+   "sentence": 2
+  },
+  {
+   "text": "Problem",
+   "kw": false,
+   "start": 19.362,
+   "end": 19.842,
+   "sentence": 3
+  },
+  {
+   "text": "two.",
+   "kw": false,
+   "start": 19.842,
+   "end": 20.162,
+   "sentence": 3
+  },
+  {
+   "text": "Duplicate",
+   "kw": true,
+   "start": 20.162,
+   "end": 20.842,
+   "sentence": 3
+  },
+  {
+   "text": "keys.",
+   "kw": false,
+   "start": 20.842,
+   "end": 21.331,
+   "sentence": 3
+  },
+  {
+   "text": "V1",
+   "kw": false,
+   "start": 21.331,
+   "end": 22.002,
+   "sentence": 3
+  },
+  {
+   "text": "silently",
+   "kw": false,
+   "start": 22.002,
+   "end": 22.682,
+   "sentence": 3
+  },
+  {
+   "text": "accepted",
+   "kw": false,
+   "start": 22.682,
+   "end": 23.322,
+   "sentence": 3
+  },
+  {
+   "text": "them.",
+   "kw": false,
+   "start": 23.322,
+   "end": 23.633,
+   "sentence": 3
+  },
+  {
+   "text": "V2",
+   "kw": false,
+   "start": 23.633,
+   "end": 24.122,
+   "sentence": 3
+  },
+  {
+   "text": "returns",
+   "kw": false,
+   "start": 24.122,
+   "end": 24.682,
+   "sentence": 3
+  },
+  {
+   "text": "an",
+   "kw": false,
+   "start": 24.682,
+   "end": 24.882,
+   "sentence": 3
+  },
+  {
+   "text": "error.",
+   "kw": true,
+   "start": 24.882,
+   "end": 25.15,
+   "sentence": 3
+  },
+  {
+   "text": "Problem",
+   "kw": false,
+   "start": 25.53,
+   "end": 26.05,
+   "sentence": 4
+  },
+  {
+   "text": "three.",
+   "kw": false,
+   "start": 26.05,
+   "end": 26.41,
+   "sentence": 4
+  },
+  {
+   "text": "A",
+   "kw": false,
+   "start": 26.41,
+   "end": 26.57,
+   "sentence": 4
+  },
+  {
+   "text": "nil",
+   "kw": true,
+   "start": 26.57,
+   "end": 26.93,
+   "sentence": 4
+  },
+  {
+   "text": "slice",
+   "kw": true,
+   "start": 26.93,
+   "end": 27.29,
+   "sentence": 4
+  },
+  {
+   "text": "was",
+   "kw": false,
+   "start": 27.29,
+   "end": 27.49,
+   "sentence": 4
+  },
+  {
+   "text": "written",
+   "kw": false,
+   "start": 27.49,
+   "end": 27.85,
+   "sentence": 4
+  },
+  {
+   "text": "as",
+   "kw": false,
+   "start": 27.85,
+   "end": 27.97,
+   "sentence": 4
+  },
+  {
+   "text": "null,",
+   "kw": true,
+   "start": 27.97,
+   "end": 28.33,
+   "sentence": 4
+  },
+  {
+   "text": "and",
+   "kw": false,
+   "start": 28.33,
+   "end": 28.53,
+   "sentence": 4
+  },
+  {
+   "text": "broke",
+   "kw": false,
+   "start": 28.53,
+   "end": 28.85,
+   "sentence": 4
+  },
+  {
+   "text": "your",
+   "kw": false,
+   "start": 28.85,
+   "end": 29.01,
+   "sentence": 4
+  },
+  {
+   "text": "front",
+   "kw": false,
+   "start": 29.01,
+   "end": 29.37,
+   "sentence": 4
+  },
+  {
+   "text": "end.",
+   "kw": false,
+   "start": 29.37,
+   "end": 29.71,
+   "sentence": 4
+  },
+  {
+   "text": "V2",
+   "kw": false,
+   "start": 29.71,
+   "end": 30.33,
+   "sentence": 4
+  },
+  {
+   "text": "writes",
+   "kw": false,
+   "start": 30.33,
+   "end": 30.73,
+   "sentence": 4
+  },
+  {
+   "text": "an",
+   "kw": false,
+   "start": 30.73,
+   "end": 30.89,
+   "sentence": 4
+  },
+  {
+   "text": "empty",
+   "kw": true,
+   "start": 30.89,
+   "end": 31.33,
+   "sentence": 4
+  },
+  {
+   "text": "array.",
+   "kw": true,
+   "start": 31.33,
+   "end": 31.654,
+   "sentence": 4
+  },
+  {
+   "text": "It's",
+   "kw": false,
+   "start": 32.034,
+   "end": 32.274,
+   "sentence": 5
+  },
+  {
+   "text": "also",
+   "kw": false,
+   "start": 32.274,
+   "end": 32.594,
+   "sentence": 5
+  },
+  {
+   "text": "faster.",
+   "kw": true,
+   "start": 32.594,
+   "end": 33.154,
+   "sentence": 5
+  },
+  {
+   "text": "Early",
+   "kw": false,
+   "start": 33.154,
+   "end": 33.554,
+   "sentence": 5
+  },
+  {
+   "text": "benchmarks",
+   "kw": false,
+   "start": 33.554,
+   "end": 34.274,
+   "sentence": 5
+  },
+  {
+   "text": "report",
+   "kw": false,
+   "start": 34.274,
+   "end": 34.634,
+   "sentence": 5
+  },
+  {
+   "text": "decoding",
+   "kw": false,
+   "start": 34.634,
+   "end": 35.234,
+   "sentence": 5
+  },
+  {
+   "text": "around",
+   "kw": false,
+   "start": 35.234,
+   "end": 35.514,
+   "sentence": 5
+  },
+  {
+   "text": "twice",
+   "kw": true,
+   "start": 35.514,
+   "end": 35.954,
+   "sentence": 5
+  },
+  {
+   "text": "as",
+   "kw": false,
+   "start": 35.954,
+   "end": 36.194,
+   "sentence": 5
+  },
+  {
+   "text": "fast.",
+   "kw": false,
+   "start": 36.194,
+   "end": 36.455,
+   "sentence": 5
+  },
+  {
+   "text": "The",
+   "kw": false,
+   "start": 36.835,
+   "end": 36.955,
+   "sentence": 6
+  },
+  {
+   "text": "best",
+   "kw": false,
+   "start": 36.955,
+   "end": 37.315,
+   "sentence": 6
+  },
+  {
+   "text": "part?",
+   "kw": false,
+   "start": 37.315,
+   "end": 37.595,
+   "sentence": 6
+  },
+  {
+   "text": "Your",
+   "kw": false,
+   "start": 37.595,
+   "end": 37.835,
+   "sentence": 6
+  },
+  {
+   "text": "old",
+   "kw": false,
+   "start": 37.835,
+   "end": 38.115,
+   "sentence": 6
+  },
+  {
+   "text": "imports",
+   "kw": true,
+   "start": 38.115,
+   "end": 38.715,
+   "sentence": 6
+  },
+  {
+   "text": "still",
+   "kw": false,
+   "start": 38.715,
+   "end": 39.035,
+   "sentence": 6
+  },
+  {
+   "text": "work.",
+   "kw": false,
+   "start": 39.035,
+   "end": 39.315,
+   "sentence": 6
+  },
+  {
+   "text": "The",
+   "kw": false,
+   "start": 39.315,
+   "end": 39.555,
+   "sentence": 6
+  },
+  {
+   "text": "classic",
+   "kw": false,
+   "start": 39.555,
+   "end": 40.115,
+   "sentence": 6
+  },
+  {
+   "text": "package",
+   "kw": false,
+   "start": 40.115,
+   "end": 40.635,
+   "sentence": 6
+  },
+  {
+   "text": "now",
+   "kw": false,
+   "start": 40.635,
+   "end": 40.915,
+   "sentence": 6
+  },
+  {
+   "text": "runs",
+   "kw": false,
+   "start": 40.915,
+   "end": 41.355,
+   "sentence": 6
+  },
+  {
+   "text": "on",
+   "kw": false,
+   "start": 41.355,
+   "end": 41.475,
+   "sentence": 6
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 41.475,
+   "end": 41.635,
+   "sentence": 6
+  },
+  {
+   "text": "new",
+   "kw": true,
+   "start": 41.635,
+   "end": 41.875,
+   "sentence": 6
+  },
+  {
+   "text": "engine,",
+   "kw": true,
+   "start": 41.875,
+   "end": 42.315,
+   "sentence": 6
+  },
+  {
+   "text": "with",
+   "kw": false,
+   "start": 42.315,
+   "end": 42.475,
+   "sentence": 6
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 42.475,
+   "end": 42.635,
+   "sentence": 6
+  },
+  {
+   "text": "old",
+   "kw": false,
+   "start": 42.635,
+   "end": 42.915,
+   "sentence": 6
+  },
+  {
+   "text": "behavior.",
+   "kw": false,
+   "start": 42.915,
+   "end": 43.496,
+   "sentence": 6
+  },
+  {
+   "text": "So",
+   "kw": false,
+   "start": 43.896,
+   "end": 44.096,
+   "sentence": 7
+  },
+  {
+   "text": "upgrade,",
+   "kw": false,
+   "start": 44.096,
+   "end": 44.696,
+   "sentence": 7
+  },
+  {
+   "text": "then",
+   "kw": false,
+   "start": 44.696,
+   "end": 44.936,
+   "sentence": 7
+  },
+  {
+   "text": "move",
+   "kw": false,
+   "start": 44.936,
+   "end": 45.176,
+   "sentence": 7
+  },
+  {
+   "text": "to",
+   "kw": false,
+   "start": 45.176,
+   "end": 45.348,
+   "sentence": 7
+  },
+  {
+   "text": "v2",
+   "kw": true,
+   "start": 45.348,
+   "end": 45.856,
+   "sentence": 7
+  },
+  {
+   "text": "one",
+   "kw": false,
+   "start": 45.856,
+   "end": 46.056,
+   "sentence": 7
+  },
+  {
+   "text": "package",
+   "kw": false,
+   "start": 46.056,
+   "end": 46.536,
+   "sentence": 7
+  },
+  {
+   "text": "at",
+   "kw": false,
+   "start": 46.536,
+   "end": 46.736,
+   "sentence": 7
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 46.736,
+   "end": 46.896,
+   "sentence": 7
+  },
+  {
+   "text": "time.",
+   "kw": false,
+   "start": 46.896,
+   "end": 47.296,
+   "sentence": 7
+  },
+  {
+   "text": "Strict",
+   "kw": true,
+   "start": 47.296,
+   "end": 47.816,
+   "sentence": 7
+  },
+  {
+   "text": "by",
+   "kw": false,
+   "start": 47.816,
+   "end": 48.016,
+   "sentence": 7
+  },
+  {
+   "text": "default",
+   "kw": false,
+   "start": 48.016,
+   "end": 48.496,
+   "sentence": 7
+  },
+  {
+   "text": "beats",
+   "kw": false,
+   "start": 48.496,
+   "end": 48.896,
+   "sentence": 7
+  },
+  {
+   "text": "surprising",
+   "kw": true,
+   "start": 48.896,
+   "end": 49.536,
+   "sentence": 7
+  },
+  {
+   "text": "by",
+   "kw": false,
+   "start": 49.536,
+   "end": 49.736,
+   "sentence": 7
+  },
+  {
+   "text": "default.",
+   "kw": false,
+   "start": 49.736,
+   "end": 50.159,
+   "sentence": 7
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.25,
+   "end": 1.61,
+   "words": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "start": 1.61,
+   "end": 2.53,
+   "words": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "start": 2.53,
+   "end": 3.61,
+   "words": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "start": 3.61,
+   "end": 4.09,
+   "words": [
+    9
+   ]
+  },
+  {
+   "start": 4.09,
+   "end": 5.93,
+   "words": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "start": 5.93,
+   "end": 6.79,
+   "words": [
+    13,
+    14
+   ]
+  },
+  {
+   "start": 6.84,
+   "end": 8.12,
+   "words": [
+    15,
+    16
+   ]
+  },
+  {
+   "start": 8.12,
+   "end": 8.96,
+   "words": [
+    17,
+    18
+   ]
+  },
+  {
+   "start": 8.96,
+   "end": 9.833,
+   "words": [
+    19
+   ]
+  },
+  {
+   "start": 9.863,
+   "end": 10.703,
+   "words": [
+    20,
+    21
+   ]
+  },
+  {
+   "start": 10.703,
+   "end": 11.703,
+   "words": [
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "start": 11.703,
+   "end": 12.863,
+   "words": [
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "start": 12.863,
+   "end": 14.183,
+   "words": [
+    28,
+    29
+   ]
+  },
+  {
+   "start": 14.183,
+   "end": 14.863,
+   "words": [
+    30,
+    31,
+    32
+   ]
+  },
+  {
+   "start": 14.863,
+   "end": 16.023,
+   "words": [
+    33,
+    34,
+    35
+   ]
+  },
+  {
+   "start": 16.023,
+   "end": 16.975,
+   "words": [
+    36,
+    37,
+    38
+   ]
+  },
+  {
+   "start": 16.975,
+   "end": 18.183,
+   "words": [
+    39,
+    40,
+    41
+   ]
+  },
+  {
+   "start": 18.183,
+   "end": 19.332,
+   "words": [
+    42,
+    43
+   ]
+  },
+  {
+   "start": 19.362,
+   "end": 20.162,
+   "words": [
+    44,
+    45
+   ]
+  },
+  {
+   "start": 20.162,
+   "end": 21.331,
+   "words": [
+    46,
+    47
+   ]
+  },
+  {
+   "start": 21.331,
+   "end": 23.322,
+   "words": [
+    48,
+    49,
+    50
+   ]
+  },
+  {
+   "start": 23.322,
+   "end": 23.633,
+   "words": [
+    51
+   ]
+  },
+  {
+   "start": 23.633,
+   "end": 24.882,
+   "words": [
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "start": 24.882,
+   "end": 25.5,
+   "words": [
+    55
+   ]
+  },
+  {
+   "start": 25.53,
+   "end": 26.41,
+   "words": [
+    56,
+    57
+   ]
+  },
+  {
+   "start": 26.41,
+   "end": 27.29,
+   "words": [
+    58,
+    59,
+    60
+   ]
+  },
+  {
+   "start": 27.29,
+   "end": 27.97,
+   "words": [
+    61,
+    62,
+    63
+   ]
+  },
+  {
+   "start": 27.97,
+   "end": 28.33,
+   "words": [
+    64
+   ]
+  },
+  {
+   "start": 28.33,
+   "end": 29.01,
+   "words": [
+    65,
+    66,
+    67
+   ]
+  },
+  {
+   "start": 29.01,
+   "end": 29.71,
+   "words": [
+    68,
+    69
+   ]
+  },
+  {
+   "start": 29.71,
+   "end": 30.89,
+   "words": [
+    70,
+    71,
+    72
+   ]
+  },
+  {
+   "start": 30.89,
+   "end": 32.004,
+   "words": [
+    73,
+    74
+   ]
+  },
+  {
+   "start": 32.034,
+   "end": 33.154,
+   "words": [
+    75,
+    76,
+    77
+   ]
+  },
+  {
+   "start": 33.154,
+   "end": 34.274,
+   "words": [
+    78,
+    79
+   ]
+  },
+  {
+   "start": 34.274,
+   "end": 35.514,
+   "words": [
+    80,
+    81,
+    82
+   ]
+  },
+  {
+   "start": 35.514,
+   "end": 36.805,
+   "words": [
+    83,
+    84,
+    85
+   ]
+  },
+  {
+   "start": 36.835,
+   "end": 37.595,
+   "words": [
+    86,
+    87,
+    88
+   ]
+  },
+  {
+   "start": 37.595,
+   "end": 38.715,
+   "words": [
+    89,
+    90,
+    91
+   ]
+  },
+  {
+   "start": 38.715,
+   "end": 39.315,
+   "words": [
+    92,
+    93
+   ]
+  },
+  {
+   "start": 39.315,
+   "end": 40.635,
+   "words": [
+    94,
+    95,
+    96
+   ]
+  },
+  {
+   "start": 40.635,
+   "end": 41.475,
+   "words": [
+    97,
+    98,
+    99
+   ]
+  },
+  {
+   "start": 41.475,
+   "end": 42.315,
+   "words": [
+    100,
+    101,
+    102
+   ]
+  },
+  {
+   "start": 42.315,
+   "end": 42.915,
+   "words": [
+    103,
+    104,
+    105
+   ]
+  },
+  {
+   "start": 42.915,
+   "end": 43.846000000000004,
+   "words": [
+    106
+   ]
+  },
+  {
+   "start": 43.896,
+   "end": 44.696,
+   "words": [
+    107,
+    108
+   ]
+  },
+  {
+   "start": 44.696,
+   "end": 45.348,
+   "words": [
+    109,
+    110,
+    111
+   ]
+  },
+  {
+   "start": 45.348,
+   "end": 46.536,
+   "words": [
+    112,
+    113,
+    114
+   ]
+  },
+  {
+   "start": 46.536,
+   "end": 47.296,
+   "words": [
+    115,
+    116,
+    117
+   ]
+  },
+  {
+   "start": 47.296,
+   "end": 48.496,
+   "words": [
+    118,
+    119,
+    120
+   ]
+  },
+  {
+   "start": 48.496,
+   "end": 49.736,
+   "words": [
+    121,
+    122,
+    123
+   ]
+  },
+  {
+   "start": 49.736,
+   "end": 50.759,
+   "words": [
+    124
+   ]
+  }
+ ]
+}

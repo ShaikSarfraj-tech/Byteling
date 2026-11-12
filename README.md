@@ -22,6 +22,7 @@ and deliverables in `episodes/<name>/`:
 - `2026-11-11-docker-not-a-vm` — "A Docker container is not a tiny VM"
 - `2026-11-12-git-clone-rce` — "One git clone could run a hacker's code" (Git 2.56.1 security release)
 - `2026-11-12-angular-rust-compiler` — "TypeScript 7 broke Angular's compiler" (ngp, the Rust preprocessor)
+- `2026-11-12-go-json-v2` — "Go 1.27 finally fixes encoding/json" (json/v2)
 
 ## How it works
 

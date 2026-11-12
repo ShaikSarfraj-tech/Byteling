@@ -1,0 +1,116 @@
+1
+00:00:00,250 --> 00:00:02,530
+Go's JSON package has been quietly
+
+2
+00:00:02,530 --> 00:00:04,090
+hiding bugs for years.
+
+3
+00:00:04,090 --> 00:00:06,790
+Go 1.27 finally fixes it.
+
+4
+00:00:06,840 --> 00:00:09,833
+Meet json/v2, now generally available.
+
+5
+00:00:09,863 --> 00:00:10,703
+Problem one.
+
+6
+00:00:10,703 --> 00:00:12,863
+The old package matched field names
+
+7
+00:00:12,863 --> 00:00:14,183
+case insensitively.
+
+8
+00:00:14,183 --> 00:00:16,023
+So a wrong key could silently
+
+9
+00:00:16,023 --> 00:00:16,975
+fill your field.
+
+10
+00:00:16,975 --> 00:00:19,332
+V2 needs an exact match.
+
+11
+00:00:19,362 --> 00:00:20,162
+Problem two.
+
+12
+00:00:20,162 --> 00:00:21,331
+Duplicate keys.
+
+13
+00:00:21,331 --> 00:00:23,633
+V1 silently accepted them.
+
+14
+00:00:23,633 --> 00:00:25,500
+V2 returns an error.
+
+15
+00:00:25,530 --> 00:00:26,410
+Problem three.
+
+16
+00:00:26,410 --> 00:00:28,330
+A nil slice was written as null,
+
+17
+00:00:28,330 --> 00:00:29,710
+and broke your front end.
+
+18
+00:00:29,710 --> 00:00:32,004
+V2 writes an empty array.
+
+19
+00:00:32,034 --> 00:00:33,154
+It's also faster.
+
+20
+00:00:33,154 --> 00:00:35,514
+Early benchmarks report decoding around
+
+21
+00:00:35,514 --> 00:00:36,805
+twice as fast.
+
+22
+00:00:36,835 --> 00:00:37,595
+The best part?
+
+23
+00:00:37,595 --> 00:00:39,315
+Your old imports still work.
+
+24
+00:00:39,315 --> 00:00:41,475
+The classic package now runs on
+
+25
+00:00:41,475 --> 00:00:43,846
+the new engine, with the old behavior.
+
+26
+00:00:43,896 --> 00:00:46,536
+So upgrade, then move to v2 one package
+
+27
+00:00:46,536 --> 00:00:47,296
+at a time.
+
+28
+00:00:47,296 --> 00:00:49,736
+Strict by default beats surprising by
+
+29
+00:00:49,736 --> 00:00:50,759
+default.
+
