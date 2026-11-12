@@ -25,6 +25,26 @@ async function open() {
   const dur = await page.evaluate(() => window.init());
   return { page, dur };
 }
+if (process.argv.includes('--thumb')) {
+  // episodes/$EP/thumbnail.png: a clean 3D frame (no captions/HUD) with a big headline from thumb.json
+  const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/episodes', EP, 'thumb.json'), 'utf8'));
+  const { page } = await open();
+  await page.evaluate((t) => window.renderFrame(t), cfg.t);
+  await page.evaluate((cfg) => {
+    const st = document.getElementById('stage');
+    for (const el of [...st.children]) if (el.id !== 'gl') el.style.display = 'none';
+    const o = document.createElement('div');
+    o.style.cssText = 'position:absolute;inset:0;background:linear-gradient(to bottom,rgba(4,6,14,.92) 0,rgba(4,6,14,.75) 30%,rgba(4,6,14,0) 52%,rgba(4,6,14,0) 80%,rgba(4,6,14,.9) 100%);font-family:Inter,sans-serif;text-align:center;';
+    const sz = cfg.size || 176;
+    o.innerHTML = `<div style="margin-top:150px;display:inline-block;font:800 40px Inter;letter-spacing:8px;color:#070b16;background:${cfg.accent || '#ffd84a'};padding:14px 30px;border-radius:14px;text-transform:uppercase">${cfg.kicker}</div>`
+      + `<div style="margin-top:36px">` + cfg.lines.map(([txt, col]) => `<div style="font:900 ${sz}px/1.02 Inter;letter-spacing:-6px;color:${col};-webkit-text-stroke:22px #060913;paint-order:stroke fill;text-shadow:0 14px 50px rgba(0,0,0,.9)">${txt}</div>`).join('') + `</div>`
+      + `<div style="position:absolute;left:0;right:0;bottom:120px;font:800 44px Inter;letter-spacing:10px;color:#8fa3c8">BYTELINK</div>`;
+    st.appendChild(o);
+  }, cfg);
+  const out = path.join(ROOT, 'episodes', EP, 'thumbnail.png');
+  await page.screenshot({ path: out }); console.log('thumbnail ->', out);
+  await browser.close(); server.close(); process.exit(0);
+}
 const si = process.argv.indexOf('--stills');
 if (si > 0) {
   const { page } = await open(); const dir = path.join(ROOT, 'frames/stills'); fs.mkdirSync(dir, { recursive: true });

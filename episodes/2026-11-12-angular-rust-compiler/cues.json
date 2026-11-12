@@ -1,0 +1,199 @@
+{
+ "c": {
+  "broke": 1.57,
+  "so": 3.21,
+  "rust0": 5.65,
+  "why": 6.338,
+  "native": 8.578,
+  "go": 9.738,
+  "faster": 10.458,
+  "without": 11.938,
+  "api": 12.338,
+  "ngc": 14.089,
+  "ngcw": 15.801,
+  "plugged": 16.409,
+  "decorators": 19.369,
+  "templates": 20.249,
+  "js": 21.129,
+  "ngp": 22.232,
+  "built": 22.832,
+  "ngpw": 23.372,
+  "rust": 25.912,
+  "oxc": 27.784,
+  "scans": 28.312,
+  "parallel": 29.712,
+  "component": 31.152,
+  "metadata": 32.752,
+  "hand": 33.71,
+  "hands": 33.99,
+  "type": 34.67,
+  "bundling": 35.55,
+  "tsgo": 37.464,
+  "esbuild": 37.98,
+  "rolldown": 38.59,
+  "bench": 39.526,
+  "benchmarks": 40.286,
+  "three": 42.086,
+  "beta": 43.555,
+  "betaw": 44.235,
+  "production": 44.995,
+  "stay": 45.675,
+  "end": 47.802,
+  "fast": 49.882,
+  "tools": 52.122,
+  "native2": 53.122,
+  "duration": 54.382
+ },
+ "sfx": [
+  {
+   "type": "whoosh",
+   "t": 0.87
+  },
+  {
+   "type": "zap",
+   "t": 1.62,
+   "gain": 0.8
+  },
+  {
+   "type": "thud",
+   "t": 1.92
+  },
+  {
+   "type": "click",
+   "t": 5.7
+  },
+  {
+   "type": "whoosh",
+   "t": 6.288
+  },
+  {
+   "type": "click",
+   "t": 9.788
+  },
+  {
+   "type": "click",
+   "t": 10.508
+  },
+  {
+   "type": "click",
+   "t": 12.388
+  },
+  {
+   "type": "whoosh",
+   "t": 14.039
+  },
+  {
+   "type": "click",
+   "t": 15.851
+  },
+  {
+   "type": "thud",
+   "t": 19.819,
+   "gain": 0.6
+  },
+  {
+   "type": "thud",
+   "t": 20.699,
+   "gain": 0.6
+  },
+  {
+   "type": "click",
+   "t": 21.179
+  },
+  {
+   "type": "whoosh",
+   "t": 22.182
+  },
+  {
+   "type": "thud",
+   "t": 23.672
+  },
+  {
+   "type": "click",
+   "t": 25.962
+  },
+  {
+   "type": "click",
+   "t": 27.834
+  },
+  {
+   "type": "pops",
+   "t": 28.312,
+   "dur": 0.9
+  },
+  {
+   "type": "pops",
+   "t": 29.712,
+   "dur": 1.3
+  },
+  {
+   "type": "power",
+   "t": 30.012,
+   "gain": 0.8
+  },
+  {
+   "type": "click",
+   "t": 31.202
+  },
+  {
+   "type": "click",
+   "t": 32.802
+  },
+  {
+   "type": "whoosh",
+   "t": 33.66
+  },
+  {
+   "type": "click",
+   "t": 34.72
+  },
+  {
+   "type": "click",
+   "t": 35.6
+  },
+  {
+   "type": "click",
+   "t": 37.514
+  },
+  {
+   "type": "click",
+   "t": 38.03
+  },
+  {
+   "type": "click",
+   "t": 38.64
+  },
+  {
+   "type": "whoosh",
+   "t": 39.476
+  },
+  {
+   "type": "power",
+   "t": 42.086
+  },
+  {
+   "type": "whoosh",
+   "t": 43.505
+  },
+  {
+   "type": "click",
+   "t": 44.285
+  },
+  {
+   "type": "click",
+   "t": 45.045
+  },
+  {
+   "type": "whoosh",
+   "t": 47.752
+  },
+  {
+   "type": "click",
+   "t": 49.932
+  },
+  {
+   "type": "click",
+   "t": 53.172
+  }
+ ]
+}

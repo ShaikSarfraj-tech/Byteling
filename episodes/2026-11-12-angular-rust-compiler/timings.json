@@ -1,0 +1,1491 @@
+{
+ "duration": 54.382,
+ "sentences": [
+  {
+   "index": 0,
+   "start": 0.25,
+   "end": 5.938,
+   "text": "TypeScript seven just broke Angular's compiler. So Angular is rewriting part of it, in Rust."
+  },
+  {
+   "index": 1,
+   "start": 6.338,
+   "end": 13.709,
+   "text": "Here's why. TypeScript seven is the native rewrite, in Go. Much faster. But it shipped without the transformer API."
+  },
+  {
+   "index": 2,
+   "start": 14.089,
+   "end": 21.852,
+   "text": "And Angular's compiler, ngc, plugged straight into that API, to turn your decorators and templates into JavaScript."
+  },
+  {
+   "index": 3,
+   "start": 22.232,
+   "end": 33.33,
+   "text": "So the team built ngp, the Angular preprocessor. A Rust front end, built on Oxc, scans your files in parallel, finds every component, and resolves its metadata."
+  },
+  {
+   "index": 4,
+   "start": 33.71,
+   "end": 39.146,
+   "text": "Then it hands off. Type checking and bundling go to tools like tsgo, esbuild, or Rolldown."
+  },
+  {
+   "index": 5,
+   "start": 39.526,
+   "end": 43.175,
+   "text": "Early community benchmarks show builds up to three times faster."
+  },
+  {
+   "index": 6,
+   "start": 43.555,
+   "end": 47.382,
+   "text": "But it's still in beta. For production, stay on ngc for now."
+  },
+  {
+   "index": 7,
+   "start": 47.802,
+   "end": 53.482,
+   "text": "The lesson? Your framework is only as fast as the tools underneath it. And those tools are going native."
+  }
+ ],
+ "words": [
+  {
+   "text": "TypeScript",
+   "kw": true,
+   "start": 0.25,
+   "end": 0.97,
+   "sentence": 0
+  },
+  {
+   "text": "seven",
+   "kw": true,
+   "start": 0.97,
+   "end": 1.33,
+   "sentence": 0
+  },
+  {
+   "text": "just",
+   "kw": false,
+   "start": 1.33,
+   "end": 1.57,
+   "sentence": 0
+  },
+  {
+   "text": "broke",
+   "kw": true,
+   "start": 1.57,
+   "end": 1.93,
+   "sentence": 0
+  },
+  {
+   "text": "Angular's",
+   "kw": false,
+   "start": 1.93,
+   "end": 2.61,
+   "sentence": 0
+  },
+  {
+   "text": "compiler.",
+   "kw": true,
+   "start": 2.61,
+   "end": 3.21,
+   "sentence": 0
+  },
+  {
+   "text": "So",
+   "kw": false,
+   "start": 3.21,
+   "end": 3.45,
+   "sentence": 0
+  },
+  {
+   "text": "Angular",
+   "kw": false,
+   "start": 3.45,
+   "end": 4.05,
+   "sentence": 0
+  },
+  {
+   "text": "is",
+   "kw": false,
+   "start": 4.05,
+   "end": 4.25,
+   "sentence": 0
+  },
+  {
+   "text": "rewriting",
+   "kw": false,
+   "start": 4.25,
+   "end": 4.85,
+   "sentence": 0
+  },
+  {
+   "text": "part",
+   "kw": false,
+   "start": 4.85,
+   "end": 5.05,
+   "sentence": 0
+  },
+  {
+   "text": "of",
+   "kw": false,
+   "start": 5.05,
+   "end": 5.21,
+   "sentence": 0
+  },
+  {
+   "text": "it,",
+   "kw": false,
+   "start": 5.21,
+   "end": 5.45,
+   "sentence": 0
+  },
+  {
+   "text": "in",
+   "kw": false,
+   "start": 5.45,
+   "end": 5.65,
+   "sentence": 0
+  },
+  {
+   "text": "Rust.",
+   "kw": true,
+   "start": 5.65,
+   "end": 5.938,
+   "sentence": 0
+  },
+  {
+   "text": "Here's",
+   "kw": false,
+   "start": 6.338,
+   "end": 6.738,
+   "sentence": 1
+  },
+  {
+   "text": "why.",
+   "kw": false,
+   "start": 6.738,
+   "end": 7.058,
+   "sentence": 1
+  },
+  {
+   "text": "TypeScript",
+   "kw": false,
+   "start": 7.058,
+   "end": 7.938,
+   "sentence": 1
+  },
+  {
+   "text": "seven",
+   "kw": false,
+   "start": 7.938,
+   "end": 8.298,
+   "sentence": 1
+  },
+  {
+   "text": "is",
+   "kw": false,
+   "start": 8.298,
+   "end": 8.458,
+   "sentence": 1
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 8.458,
+   "end": 8.578,
+   "sentence": 1
+  },
+  {
+   "text": "native",
+   "kw": true,
+   "start": 8.578,
+   "end": 9.007,
+   "sentence": 1
+  },
+  {
+   "text": "rewrite,",
+   "kw": false,
+   "start": 9.007,
+   "end": 9.498,
+   "sentence": 1
+  },
+  {
+   "text": "in",
+   "kw": false,
+   "start": 9.498,
+   "end": 9.738,
+   "sentence": 1
+  },
+  {
+   "text": "Go.",
+   "kw": true,
+   "start": 9.738,
+   "end": 10.098,
+   "sentence": 1
+  },
+  {
+   "text": "Much",
+   "kw": false,
+   "start": 10.098,
+   "end": 10.458,
+   "sentence": 1
+  },
+  {
+   "text": "faster.",
+   "kw": false,
+   "start": 10.458,
+   "end": 11.058,
+   "sentence": 1
+  },
+  {
+   "text": "But",
+   "kw": false,
+   "start": 11.058,
+   "end": 11.298,
+   "sentence": 1
+  },
+  {
+   "text": "it",
+   "kw": false,
+   "start": 11.298,
+   "end": 11.538,
+   "sentence": 1
+  },
+  {
+   "text": "shipped",
+   "kw": false,
+   "start": 11.538,
+   "end": 11.938,
+   "sentence": 1
+  },
+  {
+   "text": "without",
+   "kw": false,
+   "start": 11.938,
+   "end": 12.178,
+   "sentence": 1
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 12.178,
+   "end": 12.338,
+   "sentence": 1
+  },
+  {
+   "text": "transformer",
+   "kw": true,
+   "start": 12.338,
+   "end": 13.138,
+   "sentence": 1
+  },
+  {
+   "text": "API.",
+   "kw": true,
+   "start": 13.138,
+   "end": 13.709,
+   "sentence": 1
+  },
+  {
+   "text": "And",
+   "kw": false,
+   "start": 14.089,
+   "end": 14.209,
+   "sentence": 2
+  },
+  {
+   "text": "Angular's",
+   "kw": false,
+   "start": 14.209,
+   "end": 14.889,
+   "sentence": 2
+  },
+  {
+   "text": "compiler,",
+   "kw": false,
+   "start": 14.889,
+   "end": 15.801,
+   "sentence": 2
+  },
+  {
+   "text": "ngc,",
+   "kw": true,
+   "start": 15.801,
+   "end": 16.409,
+   "sentence": 2
+  },
+  {
+   "text": "plugged",
+   "kw": false,
+   "start": 16.409,
+   "end": 17.049,
+   "sentence": 2
+  },
+  {
+   "text": "straight",
+   "kw": false,
+   "start": 17.049,
+   "end": 17.489,
+   "sentence": 2
+  },
+  {
+   "text": "into",
+   "kw": false,
+   "start": 17.489,
+   "end": 17.769,
+   "sentence": 2
+  },
+  {
+   "text": "that",
+   "kw": false,
+   "start": 17.769,
+   "end": 18.009,
+   "sentence": 2
+  },
+  {
+   "text": "API,",
+   "kw": false,
+   "start": 18.009,
+   "end": 18.689,
+   "sentence": 2
+  },
+  {
+   "text": "to",
+   "kw": false,
+   "start": 18.689,
+   "end": 18.929,
+   "sentence": 2
+  },
+  {
+   "text": "turn",
+   "kw": false,
+   "start": 18.929,
+   "end": 19.169,
+   "sentence": 2
+  },
+  {
+   "text": "your",
+   "kw": false,
+   "start": 19.169,
+   "end": 19.369,
+   "sentence": 2
+  },
+  {
+   "text": "decorators",
+   "kw": true,
+   "start": 19.369,
+   "end": 20.089,
+   "sentence": 2
+  },
+  {
+   "text": "and",
+   "kw": false,
+   "start": 20.089,
+   "end": 20.249,
+   "sentence": 2
+  },
+  {
+   "text": "templates",
+   "kw": true,
+   "start": 20.249,
+   "end": 20.809,
+   "sentence": 2
+  },
+  {
+   "text": "into",
+   "kw": false,
+   "start": 20.809,
+   "end": 21.129,
+   "sentence": 2
+  },
+  {
+   "text": "JavaScript.",
+   "kw": false,
+   "start": 21.129,
+   "end": 21.852,
+   "sentence": 2
+  },
+  {
+   "text": "So",
+   "kw": false,
+   "start": 22.232,
+   "end": 22.352,
+   "sentence": 3
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 22.352,
+   "end": 22.512,
+   "sentence": 3
+  },
+  {
+   "text": "team",
+   "kw": false,
+   "start": 22.512,
+   "end": 22.832,
+   "sentence": 3
+  },
+  {
+   "text": "built",
+   "kw": false,
+   "start": 22.832,
+   "end": 23.372,
+   "sentence": 3
+  },
+  {
+   "text": "ngp,",
+   "kw": true,
+   "start": 23.372,
+   "end": 23.912,
+   "sentence": 3
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 23.912,
+   "end": 24.112,
+   "sentence": 3
+  },
+  {
+   "text": "Angular",
+   "kw": false,
+   "start": 24.112,
+   "end": 24.721,
+   "sentence": 3
+  },
+  {
+   "text": "preprocessor.",
+   "kw": true,
+   "start": 24.721,
+   "end": 25.712,
+   "sentence": 3
+  },
+  {
+   "text": "A",
+   "kw": false,
+   "start": 25.712,
+   "end": 25.912,
+   "sentence": 3
+  },
+  {
+   "text": "Rust",
+   "kw": true,
+   "start": 25.912,
+   "end": 26.272,
+   "sentence": 3
+  },
+  {
+   "text": "front",
+   "kw": false,
+   "start": 26.272,
+   "end": 26.632,
+   "sentence": 3
+  },
+  {
+   "text": "end,",
+   "kw": false,
+   "start": 26.632,
+   "end": 26.992,
+   "sentence": 3
+  },
+  {
+   "text": "built",
+   "kw": false,
+   "start": 26.992,
+   "end": 27.52,
+   "sentence": 3
+  },
+  {
+   "text": "on",
+   "kw": false,
+   "start": 27.52,
+   "end": 27.784,
+   "sentence": 3
+  },
+  {
+   "text": "Oxc,",
+   "kw": true,
+   "start": 27.784,
+   "end": 28.312,
+   "sentence": 3
+  },
+  {
+   "text": "scans",
+   "kw": false,
+   "start": 28.312,
+   "end": 28.872,
+   "sentence": 3
+  },
+  {
+   "text": "your",
+   "kw": false,
+   "start": 28.872,
+   "end": 29.112,
+   "sentence": 3
+  },
+  {
+   "text": "files",
+   "kw": false,
+   "start": 29.112,
+   "end": 29.512,
+   "sentence": 3
+  },
+  {
+   "text": "in",
+   "kw": false,
+   "start": 29.512,
+   "end": 29.712,
+   "sentence": 3
+  },
+  {
+   "text": "parallel,",
+   "kw": true,
+   "start": 29.712,
+   "end": 30.392,
+   "sentence": 3
+  },
+  {
+   "text": "finds",
+   "kw": false,
+   "start": 30.392,
+   "end": 30.832,
+   "sentence": 3
+  },
+  {
+   "text": "every",
+   "kw": false,
+   "start": 30.832,
+   "end": 31.152,
+   "sentence": 3
+  },
+  {
+   "text": "component,",
+   "kw": true,
+   "start": 31.152,
+   "end": 31.672,
+   "sentence": 3
+  },
+  {
+   "text": "and",
+   "kw": false,
+   "start": 31.672,
+   "end": 31.912,
+   "sentence": 3
+  },
+  {
+   "text": "resolves",
+   "kw": false,
+   "start": 31.912,
+   "end": 32.512,
+   "sentence": 3
+  },
+  {
+   "text": "its",
+   "kw": false,
+   "start": 32.512,
+   "end": 32.752,
+   "sentence": 3
+  },
+  {
+   "text": "metadata.",
+   "kw": true,
+   "start": 32.752,
+   "end": 33.33,
+   "sentence": 3
+  },
+  {
+   "text": "Then",
+   "kw": false,
+   "start": 33.71,
+   "end": 33.83,
+   "sentence": 4
+  },
+  {
+   "text": "it",
+   "kw": false,
+   "start": 33.83,
+   "end": 33.99,
+   "sentence": 4
+  },
+  {
+   "text": "hands",
+   "kw": false,
+   "start": 33.99,
+   "end": 34.35,
+   "sentence": 4
+  },
+  {
+   "text": "off.",
+   "kw": false,
+   "start": 34.35,
+   "end": 34.67,
+   "sentence": 4
+  },
+  {
+   "text": "Type",
+   "kw": true,
+   "start": 34.67,
+   "end": 35.03,
+   "sentence": 4
+  },
+  {
+   "text": "checking",
+   "kw": true,
+   "start": 35.03,
+   "end": 35.39,
+   "sentence": 4
+  },
+  {
+   "text": "and",
+   "kw": false,
+   "start": 35.39,
+   "end": 35.55,
+   "sentence": 4
+  },
+  {
+   "text": "bundling",
+   "kw": false,
+   "start": 35.55,
+   "end": 36.03,
+   "sentence": 4
+  },
+  {
+   "text": "go",
+   "kw": false,
+   "start": 36.03,
+   "end": 36.15,
+   "sentence": 4
+  },
+  {
+   "text": "to",
+   "kw": false,
+   "start": 36.15,
+   "end": 36.27,
+   "sentence": 4
+  },
+  {
+   "text": "tools",
+   "kw": false,
+   "start": 36.27,
+   "end": 36.75,
+   "sentence": 4
+  },
+  {
+   "text": "like",
+   "kw": false,
+   "start": 36.75,
+   "end": 37.464,
+   "sentence": 4
+  },
+  {
+   "text": "tsgo,",
+   "kw": true,
+   "start": 37.464,
+   "end": 37.98,
+   "sentence": 4
+  },
+  {
+   "text": "esbuild,",
+   "kw": true,
+   "start": 37.98,
+   "end": 38.35,
+   "sentence": 4
+  },
+  {
+   "text": "or",
+   "kw": false,
+   "start": 38.35,
+   "end": 38.59,
+   "sentence": 4
+  },
+  {
+   "text": "Rolldown.",
+   "kw": true,
+   "start": 38.59,
+   "end": 39.146,
+   "sentence": 4
+  },
+  {
+   "text": "Early",
+   "kw": false,
+   "start": 39.526,
+   "end": 39.886,
+   "sentence": 5
+  },
+  {
+   "text": "community",
+   "kw": false,
+   "start": 39.886,
+   "end": 40.286,
+   "sentence": 5
+  },
+  {
+   "text": "benchmarks",
+   "kw": true,
+   "start": 40.286,
+   "end": 41.086,
+   "sentence": 5
+  },
+  {
+   "text": "show",
+   "kw": false,
+   "start": 41.086,
+   "end": 41.366,
+   "sentence": 5
+  },
+  {
+   "text": "builds",
+   "kw": false,
+   "start": 41.366,
+   "end": 41.726,
+   "sentence": 5
+  },
+  {
+   "text": "up",
+   "kw": false,
+   "start": 41.726,
+   "end": 41.886,
+   "sentence": 5
+  },
+  {
+   "text": "to",
+   "kw": false,
+   "start": 41.886,
+   "end": 42.086,
+   "sentence": 5
+  },
+  {
+   "text": "three",
+   "kw": true,
+   "start": 42.086,
+   "end": 42.406,
+   "sentence": 5
+  },
+  {
+   "text": "times",
+   "kw": true,
+   "start": 42.406,
+   "end": 42.766,
+   "sentence": 5
+  },
+  {
+   "text": "faster.",
+   "kw": false,
+   "start": 42.766,
+   "end": 43.175,
+   "sentence": 5
+  },
+  {
+   "text": "But",
+   "kw": false,
+   "start": 43.555,
+   "end": 43.635,
+   "sentence": 6
+  },
+  {
+   "text": "it's",
+   "kw": false,
+   "start": 43.635,
+   "end": 43.875,
+   "sentence": 6
+  },
+  {
+   "text": "still",
+   "kw": false,
+   "start": 43.875,
+   "end": 44.075,
+   "sentence": 6
+  },
+  {
+   "text": "in",
+   "kw": false,
+   "start": 44.075,
+   "end": 44.235,
+   "sentence": 6
+  },
+  {
+   "text": "beta.",
+   "kw": true,
+   "start": 44.235,
+   "end": 44.715,
+   "sentence": 6
+  },
+  {
+   "text": "For",
+   "kw": false,
+   "start": 44.715,
+   "end": 44.995,
+   "sentence": 6
+  },
+  {
+   "text": "production,",
+   "kw": false,
+   "start": 44.995,
+   "end": 45.675,
+   "sentence": 6
+  },
+  {
+   "text": "stay",
+   "kw": false,
+   "start": 45.675,
+   "end": 45.995,
+   "sentence": 6
+  },
+  {
+   "text": "on",
+   "kw": false,
+   "start": 45.995,
+   "end": 46.315,
+   "sentence": 6
+  },
+  {
+   "text": "ngc",
+   "kw": true,
+   "start": 46.315,
+   "end": 46.955,
+   "sentence": 6
+  },
+  {
+   "text": "for",
+   "kw": false,
+   "start": 46.955,
+   "end": 47.235,
+   "sentence": 6
+  },
+  {
+   "text": "now.",
+   "kw": false,
+   "start": 47.235,
+   "end": 47.382,
+   "sentence": 6
+  },
+  {
+   "text": "The",
+   "kw": false,
+   "start": 47.802,
+   "end": 47.962,
+   "sentence": 7
+  },
+  {
+   "text": "lesson?",
+   "kw": false,
+   "start": 47.962,
+   "end": 48.402,
+   "sentence": 7
+  },
+  {
+   "text": "Your",
+   "kw": false,
+   "start": 48.402,
+   "end": 48.642,
+   "sentence": 7
+  },
+  {
+   "text": "framework",
+   "kw": false,
+   "start": 48.642,
+   "end": 49.242,
+   "sentence": 7
+  },
+  {
+   "text": "is",
+   "kw": false,
+   "start": 49.242,
+   "end": 49.442,
+   "sentence": 7
+  },
+  {
+   "text": "only",
+   "kw": false,
+   "start": 49.442,
+   "end": 49.682,
+   "sentence": 7
+  },
+  {
+   "text": "as",
+   "kw": false,
+   "start": 49.682,
+   "end": 49.882,
+   "sentence": 7
+  },
+  {
+   "text": "fast",
+   "kw": true,
+   "start": 49.882,
+   "end": 50.242,
+   "sentence": 7
+  },
+  {
+   "text": "as",
+   "kw": false,
+   "start": 50.242,
+   "end": 50.402,
+   "sentence": 7
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 50.402,
+   "end": 50.522,
+   "sentence": 7
+  },
+  {
+   "text": "tools",
+   "kw": true,
+   "start": 50.522,
+   "end": 50.962,
+   "sentence": 7
+  },
+  {
+   "text": "underneath",
+   "kw": false,
+   "start": 50.962,
+   "end": 51.482,
+   "sentence": 7
+  },
+  {
+   "text": "it.",
+   "kw": false,
+   "start": 51.482,
+   "end": 51.682,
+   "sentence": 7
+  },
+  {
+   "text": "And",
+   "kw": false,
+   "start": 51.682,
+   "end": 51.842,
+   "sentence": 7
+  },
+  {
+   "text": "those",
+   "kw": false,
+   "start": 51.842,
+   "end": 52.122,
+   "sentence": 7
+  },
+  {
+   "text": "tools",
+   "kw": false,
+   "start": 52.122,
+   "end": 52.602,
+   "sentence": 7
+  },
+  {
+   "text": "are",
+   "kw": false,
+   "start": 52.602,
+   "end": 52.842,
+   "sentence": 7
+  },
+  {
+   "text": "going",
+   "kw": false,
+   "start": 52.842,
+   "end": 53.122,
+   "sentence": 7
+  },
+  {
+   "text": "native.",
+   "kw": true,
+   "start": 53.122,
+   "end": 53.482,
+   "sentence": 7
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.25,
+   "end": 1.57,
+   "words": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "start": 1.57,
+   "end": 2.61,
+   "words": [
+    3,
+    4
+   ]
+  },
+  {
+   "start": 2.61,
+   "end": 3.21,
+   "words": [
+    5
+   ]
+  },
+  {
+   "start": 3.21,
+   "end": 4.25,
+   "words": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "start": 4.25,
+   "end": 5.21,
+   "words": [
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "start": 5.21,
+   "end": 5.45,
+   "words": [
+    12
+   ]
+  },
+  {
+   "start": 5.45,
+   "end": 6.287999999999999,
+   "words": [
+    13,
+    14
+   ]
+  },
+  {
+   "start": 6.338,
+   "end": 7.058,
+   "words": [
+    15,
+    16
+   ]
+  },
+  {
+   "start": 7.058,
+   "end": 8.458,
+   "words": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "start": 8.458,
+   "end": 9.498,
+   "words": [
+    20,
+    21,
+    22
+   ]
+  },
+  {
+   "start": 9.498,
+   "end": 10.098,
+   "words": [
+    23,
+    24
+   ]
+  },
+  {
+   "start": 10.098,
+   "end": 11.058,
+   "words": [
+    25,
+    26
+   ]
+  },
+  {
+   "start": 11.058,
+   "end": 11.938,
+   "words": [
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "start": 11.938,
+   "end": 12.338,
+   "words": [
+    30,
+    31
+   ]
+  },
+  {
+   "start": 12.338,
+   "end": 14.059,
+   "words": [
+    32,
+    33
+   ]
+  },
+  {
+   "start": 14.089,
+   "end": 14.889,
+   "words": [
+    34,
+    35
+   ]
+  },
+  {
+   "start": 14.889,
+   "end": 15.801,
+   "words": [
+    36
+   ]
+  },
+  {
+   "start": 15.801,
+   "end": 16.409,
+   "words": [
+    37
+   ]
+  },
+  {
+   "start": 16.409,
+   "end": 17.769,
+   "words": [
+    38,
+    39,
+    40
+   ]
+  },
+  {
+   "start": 17.769,
+   "end": 18.689,
+   "words": [
+    41,
+    42
+   ]
+  },
+  {
+   "start": 18.689,
+   "end": 19.369,
+   "words": [
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "start": 19.369,
+   "end": 20.249,
+   "words": [
+    46,
+    47
+   ]
+  },
+  {
+   "start": 20.249,
+   "end": 21.129,
+   "words": [
+    48,
+    49
+   ]
+  },
+  {
+   "start": 21.129,
+   "end": 22.202,
+   "words": [
+    50
+   ]
+  },
+  {
+   "start": 22.232,
+   "end": 22.832,
+   "words": [
+    51,
+    52,
+    53
+   ]
+  },
+  {
+   "start": 22.832,
+   "end": 23.912,
+   "words": [
+    54,
+    55
+   ]
+  },
+  {
+   "start": 23.912,
+   "end": 24.721,
+   "words": [
+    56,
+    57
+   ]
+  },
+  {
+   "start": 24.721,
+   "end": 25.712,
+   "words": [
+    58
+   ]
+  },
+  {
+   "start": 25.712,
+   "end": 26.632,
+   "words": [
+    59,
+    60,
+    61
+   ]
+  },
+  {
+   "start": 26.632,
+   "end": 26.992,
+   "words": [
+    62
+   ]
+  },
+  {
+   "start": 26.992,
+   "end": 28.312,
+   "words": [
+    63,
+    64,
+    65
+   ]
+  },
+  {
+   "start": 28.312,
+   "end": 29.512,
+   "words": [
+    66,
+    67,
+    68
+   ]
+  },
+  {
+   "start": 29.512,
+   "end": 30.392,
+   "words": [
+    69,
+    70
+   ]
+  },
+  {
+   "start": 30.392,
+   "end": 31.672,
+   "words": [
+    71,
+    72,
+    73
+   ]
+  },
+  {
+   "start": 31.672,
+   "end": 32.752,
+   "words": [
+    74,
+    75,
+    76
+   ]
+  },
+  {
+   "start": 32.752,
+   "end": 33.68,
+   "words": [
+    77
+   ]
+  },
+  {
+   "start": 33.71,
+   "end": 34.35,
+   "words": [
+    78,
+    79,
+    80
+   ]
+  },
+  {
+   "start": 34.35,
+   "end": 34.67,
+   "words": [
+    81
+   ]
+  },
+  {
+   "start": 34.67,
+   "end": 35.55,
+   "words": [
+    82,
+    83,
+    84
+   ]
+  },
+  {
+   "start": 35.55,
+   "end": 36.27,
+   "words": [
+    85,
+    86,
+    87
+   ]
+  },
+  {
+   "start": 36.27,
+   "end": 37.98,
+   "words": [
+    88,
+    89,
+    90
+   ]
+  },
+  {
+   "start": 37.98,
+   "end": 38.35,
+   "words": [
+    91
+   ]
+  },
+  {
+   "start": 38.35,
+   "end": 39.496,
+   "words": [
+    92,
+    93
+   ]
+  },
+  {
+   "start": 39.526,
+   "end": 40.286,
+   "words": [
+    94,
+    95
+   ]
+  },
+  {
+   "start": 40.286,
+   "end": 41.726,
+   "words": [
+    96,
+    97,
+    98
+   ]
+  },
+  {
+   "start": 41.726,
+   "end": 42.406,
+   "words": [
+    99,
+    100,
+    101
+   ]
+  },
+  {
+   "start": 42.406,
+   "end": 43.525,
+   "words": [
+    102,
+    103
+   ]
+  },
+  {
+   "start": 43.555,
+   "end": 44.075,
+   "words": [
+    104,
+    105,
+    106
+   ]
+  },
+  {
+   "start": 44.075,
+   "end": 44.715,
+   "words": [
+    107,
+    108
+   ]
+  },
+  {
+   "start": 44.715,
+   "end": 45.675,
+   "words": [
+    109,
+    110
+   ]
+  },
+  {
+   "start": 45.675,
+   "end": 46.955,
+   "words": [
+    111,
+    112,
+    113
+   ]
+  },
+  {
+   "start": 46.955,
+   "end": 47.732,
+   "words": [
+    114,
+    115
+   ]
+  },
+  {
+   "start": 47.802,
+   "end": 48.402,
+   "words": [
+    116,
+    117
+   ]
+  },
+  {
+   "start": 48.402,
+   "end": 49.442,
+   "words": [
+    118,
+    119,
+    120
+   ]
+  },
+  {
+   "start": 49.442,
+   "end": 50.242,
+   "words": [
+    121,
+    122,
+    123
+   ]
+  },
+  {
+   "start": 50.242,
+   "end": 50.962,
+   "words": [
+    124,
+    125,
+    126
+   ]
+  },
+  {
+   "start": 50.962,
+   "end": 51.682,
+   "words": [
+    127,
+    128
+   ]
+  },
+  {
+   "start": 51.682,
+   "end": 52.602,
+   "words": [
+    129,
+    130,
+    131
+   ]
+  },
+  {
+   "start": 52.602,
+   "end": 54.082,
+   "words": [
+    132,
+    133,
+    134
+   ]
+  }
+ ]
+}

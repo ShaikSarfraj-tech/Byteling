@@ -1,0 +1,16 @@
+{
+ "t": 4.9,
+ "kicker": "Docker explained",
+ "accent": "#5ee6ff",
+ "lines": [
+  [
+   "CONTAINER",
+   "#ffffff"
+  ],
+  [
+   "\u2260 TINY VM",
+   "#ffd84a"
+  ]
+ ],
+ "size": 168
+}

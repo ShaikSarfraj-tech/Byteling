@@ -1,6 +1,7 @@
 # YouTube upload metadata — Episode 1
 
-**File:** `episodes/2026-11-11-docker-not-a-vm/video.mp4`  (Shorts, 58s, 9:16)
+**File:** `episodes/2026-11-11-docker-not-a-vm/video.mp4`  (Shorts, 58s, 9:16)  
+**Thumbnail:** `thumbnail.png` (1080×1920)
 
 ## Title (59 chars)
 A Docker Container Is NOT a Tiny VM (It's Just a Process) #shorts

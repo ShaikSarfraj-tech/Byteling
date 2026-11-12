@@ -13,7 +13,8 @@ Do the whole job without asking for assets or confirmation:
    (`./fetch_models.sh` once, then `EP=<date>-<slug> ./build.sh`; rewrite `scene.js`/`cues.py` for the topic).
 4. Verify the MP4 (ffprobe + frame contact sheet), write `script.md` (with sources) and
    `youtube-metadata.md` in `episodes/<date>-<slug>/`
-   (title, description, hashtags, tags, category Science & Technology).
+   (title, description, hashtags, tags, category Science & Technology), and render a thumbnail
+   (`thumb.json` + `EP=<date>-<slug> node src/render.mjs --thumb` → `thumbnail.png`).
 5. Commit and push, then upload to the Bytelink YouTube channel if this session has YouTube access.
    If it does not, say so plainly and hand over the MP4 + metadata.
 

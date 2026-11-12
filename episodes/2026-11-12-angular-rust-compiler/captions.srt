@@ -1,0 +1,124 @@
+1
+00:00:00,250 --> 00:00:02,610
+TypeScript seven just broke Angular's
+
+2
+00:00:02,610 --> 00:00:03,210
+compiler.
+
+3
+00:00:03,210 --> 00:00:05,450
+So Angular is rewriting part of it,
+
+4
+00:00:05,450 --> 00:00:06,288
+in Rust.
+
+5
+00:00:06,338 --> 00:00:07,058
+Here's why.
+
+6
+00:00:07,058 --> 00:00:09,498
+TypeScript seven is the native rewrite,
+
+7
+00:00:09,498 --> 00:00:10,098
+in Go.
+
+8
+00:00:10,098 --> 00:00:11,058
+Much faster.
+
+9
+00:00:11,058 --> 00:00:12,338
+But it shipped without the
+
+10
+00:00:12,338 --> 00:00:14,059
+transformer API.
+
+11
+00:00:14,089 --> 00:00:16,409
+And Angular's compiler, ngc,
+
+12
+00:00:16,409 --> 00:00:18,689
+plugged straight into that API,
+
+13
+00:00:18,689 --> 00:00:21,129
+to turn your decorators and templates into
+
+14
+00:00:21,129 --> 00:00:22,202
+JavaScript.
+
+15
+00:00:22,232 --> 00:00:24,721
+So the team built ngp, the Angular
+
+16
+00:00:24,721 --> 00:00:25,712
+preprocessor.
+
+17
+00:00:25,712 --> 00:00:28,312
+A Rust front end, built on Oxc,
+
+18
+00:00:28,312 --> 00:00:30,392
+scans your files in parallel,
+
+19
+00:00:30,392 --> 00:00:32,752
+finds every component, and resolves its
+
+20
+00:00:32,752 --> 00:00:33,680
+metadata.
+
+21
+00:00:33,710 --> 00:00:34,670
+Then it hands off.
+
+22
+00:00:34,670 --> 00:00:36,270
+Type checking and bundling go to
+
+23
+00:00:36,270 --> 00:00:39,496
+tools like tsgo, esbuild, or Rolldown.
+
+24
+00:00:39,526 --> 00:00:41,726
+Early community benchmarks show builds
+
+25
+00:00:41,726 --> 00:00:43,525
+up to three times faster.
+
+26
+00:00:43,555 --> 00:00:44,715
+But it's still in beta.
+
+27
+00:00:44,715 --> 00:00:47,732
+For production, stay on ngc for now.
+
+28
+00:00:47,802 --> 00:00:48,402
+The lesson?
+
+29
+00:00:48,402 --> 00:00:50,242
+Your framework is only as fast
+
+30
+00:00:50,242 --> 00:00:51,682
+as the tools underneath it.
+
+31
+00:00:51,682 --> 00:00:54,082
+And those tools are going native.
+

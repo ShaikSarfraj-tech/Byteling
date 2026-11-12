@@ -1,0 +1,16 @@
+{
+ "t": 33.4,
+ "kicker": "Git security alert",
+ "accent": "#ff5a5a",
+ "lines": [
+  [
+   "git clone",
+   "#ffffff"
+  ],
+  [
+   "= HACKED?",
+   "#ff5a5a"
+  ]
+ ],
+ "size": 176
+}

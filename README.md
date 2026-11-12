@@ -16,10 +16,12 @@ and deliverables in `episodes/<name>/`:
 | `voiceover.wav` | AI voiceover |
 | `captions.srt` | Subtitles |
 | `youtube-metadata.md` | SEO title, description, tags, settings |
+| `thumbnail.png` | 1080×1920 thumbnail (`EP=<name> node src/render.mjs --thumb`, text in `thumb.json`) |
 | `timings.json`, `cues.json`, `sfx.wav`, `mix.wav` | Word timings, cue sheet, SFX stem, final mix |
 
 - `2026-11-11-docker-not-a-vm` — "A Docker container is not a tiny VM"
 - `2026-11-12-git-clone-rce` — "One git clone could run a hacker's code" (Git 2.56.1 security release)
+- `2026-11-12-angular-rust-compiler` — "TypeScript 7 broke Angular's compiler" (ngp, the Rust preprocessor)
 
 ## How it works
 

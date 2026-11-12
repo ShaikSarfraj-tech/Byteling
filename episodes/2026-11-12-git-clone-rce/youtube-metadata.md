@@ -1,6 +1,7 @@
 # YouTube upload metadata — Git clone RCE (news short)
 
-**File:** `episodes/2026-11-12-git-clone-rce/video.mp4` (Shorts, 55s, 9:16)
+**File:** `episodes/2026-11-12-git-clone-rce/video.mp4` (Shorts, 55s, 9:16)  
+**Thumbnail:** `thumbnail.png` (1080×1920)
 
 ## Title (62 chars)
 One git clone Could Run a Hacker's Code — Update Git Now #shorts
