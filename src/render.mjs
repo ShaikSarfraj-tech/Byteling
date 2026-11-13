@@ -34,7 +34,7 @@ if (process.argv.includes('--thumb')) {
     const st = document.getElementById('stage');
     for (const el of [...st.children]) if (el.id !== 'gl') el.style.display = 'none';
     const o = document.createElement('div');
-    o.style.cssText = 'position:absolute;inset:0;background:linear-gradient(to bottom,rgba(4,6,14,.92) 0,rgba(4,6,14,.75) 30%,rgba(4,6,14,0) 52%,rgba(4,6,14,0) 80%,rgba(4,6,14,.9) 100%);font-family:Inter,sans-serif;text-align:center;';
+    o.style.cssText = `position:absolute;inset:0;background:linear-gradient(to bottom,rgba(4,6,14,.92) 0,rgba(4,6,14,.8) ${cfg.cover || 30}%,rgba(4,6,14,0) ${(cfg.cover || 30) + 20}%,rgba(4,6,14,0) 80%,rgba(4,6,14,.9) 100%);font-family:Inter,sans-serif;text-align:center;`;
     const sz = cfg.size || 176;
     o.innerHTML = `<div style="margin-top:150px;display:inline-block;font:800 40px Inter;letter-spacing:8px;color:#070b16;background:${cfg.accent || '#ffd84a'};padding:14px 30px;border-radius:14px;text-transform:uppercase">${cfg.kicker}</div>`
       + `<div style="margin-top:36px">` + cfg.lines.map(([txt, col]) => `<div style="font:900 ${sz}px/1.02 Inter;letter-spacing:-6px;color:${col};-webkit-text-stroke:22px #060913;paint-order:stroke fill;text-shadow:0 14px 50px rgba(0,0,0,.9)">${txt}</div>`).join('') + `</div>`

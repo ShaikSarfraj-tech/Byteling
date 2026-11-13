@@ -1,0 +1,104 @@
+1
+00:00:00,250 --> 00:00:02,290
+Outlook and Teams just went down
+
+2
+00:00:02,290 --> 00:00:03,250
+around the world.
+
+3
+00:00:03,250 --> 00:00:06,191
+And Microsoft says it was not an attack.
+
+4
+00:00:06,241 --> 00:00:10,081
+On November twelfth, Microsoft 365 started
+
+5
+00:00:10,081 --> 00:00:12,543
+failing in more than seventy countries.
+
+6
+00:00:12,573 --> 00:00:13,933
+The early explanation?
+
+7
+00:00:13,933 --> 00:00:15,333
+Not a traffic spike.
+
+8
+00:00:15,333 --> 00:00:17,273
+Failed server health checks.
+
+9
+00:00:17,323 --> 00:00:18,683
+Here's what that means.
+
+10
+00:00:18,683 --> 00:00:21,763
+A load balancer keeps asking every server:
+
+11
+00:00:21,763 --> 00:00:22,803
+are you alive?
+
+12
+00:00:22,803 --> 00:00:25,323
+If one stops answering, it gets pulled
+
+13
+00:00:25,323 --> 00:00:26,634
+out of rotation.
+
+14
+00:00:26,663 --> 00:00:28,823
+That's perfect when one server dies.
+
+15
+00:00:28,823 --> 00:00:30,703
+But when many servers fail their
+
+16
+00:00:30,703 --> 00:00:33,302
+checks at once, they all get pulled.
+
+17
+00:00:33,332 --> 00:00:35,052
+Now the same traffic lands on
+
+18
+00:00:35,052 --> 00:00:36,532
+far fewer machines.
+
+19
+00:00:36,532 --> 00:00:38,492
+They overload, slow down,
+
+20
+00:00:38,492 --> 00:00:40,241
+and start failing too.
+
+21
+00:00:40,251 --> 00:00:42,904
+Engineers call that a cascading failure.
+
+22
+00:00:42,954 --> 00:00:45,394
+Microsoft says the final root cause
+
+23
+00:00:45,394 --> 00:00:47,573
+is still being investigated.
+
+24
+00:00:47,623 --> 00:00:48,383
+The lesson?
+
+25
+00:00:48,383 --> 00:00:50,703
+Health checks decide who gets traffic.
+
+26
+00:00:50,703 --> 00:00:53,195
+Design them to fail carefully.
+

@@ -1,0 +1,1401 @@
+{
+ "duration": 53.495,
+ "sentences": [
+  {
+   "index": 0,
+   "start": 0.25,
+   "end": 5.841,
+   "text": "Outlook and Teams just went down around the world. And Microsoft says it was not an attack."
+  },
+  {
+   "index": 1,
+   "start": 6.241,
+   "end": 12.193,
+   "text": "On November twelfth, Microsoft 365 started failing in more than seventy countries."
+  },
+  {
+   "index": 2,
+   "start": 12.573,
+   "end": 16.923,
+   "text": "The early explanation? Not a traffic spike. Failed server health checks."
+  },
+  {
+   "index": 3,
+   "start": 17.323,
+   "end": 26.284,
+   "text": "Here's what that means. A load balancer keeps asking every server: are you alive? If one stops answering, it gets pulled out of rotation."
+  },
+  {
+   "index": 4,
+   "start": 26.663,
+   "end": 32.952,
+   "text": "That's perfect when one server dies. But when many servers fail their checks at once, they all get pulled."
+  },
+  {
+   "index": 5,
+   "start": 33.332,
+   "end": 39.891,
+   "text": "Now the same traffic lands on far fewer machines. They overload, slow down, and start failing too."
+  },
+  {
+   "index": 6,
+   "start": 40.251,
+   "end": 42.554,
+   "text": "Engineers call that a cascading failure."
+  },
+  {
+   "index": 7,
+   "start": 42.954,
+   "end": 47.223,
+   "text": "Microsoft says the final root cause is still being investigated."
+  },
+  {
+   "index": 8,
+   "start": 47.623,
+   "end": 52.595,
+   "text": "The lesson? Health checks decide who gets traffic. Design them to fail carefully."
+  }
+ ],
+ "words": [
+  {
+   "text": "Outlook",
+   "kw": true,
+   "start": 0.25,
+   "end": 0.69,
+   "sentence": 0
+  },
+  {
+   "text": "and",
+   "kw": false,
+   "start": 0.69,
+   "end": 0.89,
+   "sentence": 0
+  },
+  {
+   "text": "Teams",
+   "kw": true,
+   "start": 0.89,
+   "end": 1.37,
+   "sentence": 0
+  },
+  {
+   "text": "just",
+   "kw": false,
+   "start": 1.37,
+   "end": 1.61,
+   "sentence": 0
+  },
+  {
+   "text": "went",
+   "kw": false,
+   "start": 1.61,
+   "end": 1.97,
+   "sentence": 0
+  },
+  {
+   "text": "down",
+   "kw": true,
+   "start": 1.97,
+   "end": 2.29,
+   "sentence": 0
+  },
+  {
+   "text": "around",
+   "kw": false,
+   "start": 2.29,
+   "end": 2.65,
+   "sentence": 0
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 2.65,
+   "end": 2.85,
+   "sentence": 0
+  },
+  {
+   "text": "world.",
+   "kw": false,
+   "start": 2.85,
+   "end": 3.25,
+   "sentence": 0
+  },
+  {
+   "text": "And",
+   "kw": false,
+   "start": 3.25,
+   "end": 3.49,
+   "sentence": 0
+  },
+  {
+   "text": "Microsoft",
+   "kw": false,
+   "start": 3.49,
+   "end": 4.37,
+   "sentence": 0
+  },
+  {
+   "text": "says",
+   "kw": false,
+   "start": 4.37,
+   "end": 4.69,
+   "sentence": 0
+  },
+  {
+   "text": "it",
+   "kw": false,
+   "start": 4.69,
+   "end": 4.85,
+   "sentence": 0
+  },
+  {
+   "text": "was",
+   "kw": false,
+   "start": 4.85,
+   "end": 5.05,
+   "sentence": 0
+  },
+  {
+   "text": "not",
+   "kw": true,
+   "start": 5.05,
+   "end": 5.29,
+   "sentence": 0
+  },
+  {
+   "text": "an",
+   "kw": false,
+   "start": 5.29,
+   "end": 5.49,
+   "sentence": 0
+  },
+  {
+   "text": "attack.",
+   "kw": false,
+   "start": 5.49,
+   "end": 5.841,
+   "sentence": 0
+  },
+  {
+   "text": "On",
+   "kw": false,
+   "start": 6.241,
+   "end": 6.361,
+   "sentence": 1
+  },
+  {
+   "text": "November",
+   "kw": false,
+   "start": 6.361,
+   "end": 6.996,
+   "sentence": 1
+  },
+  {
+   "text": "twelfth,",
+   "kw": false,
+   "start": 6.996,
+   "end": 7.561,
+   "sentence": 1
+  },
+  {
+   "text": "Microsoft",
+   "kw": false,
+   "start": 7.561,
+   "end": 8.481,
+   "sentence": 1
+  },
+  {
+   "text": "365",
+   "kw": true,
+   "start": 8.481,
+   "end": 9.641,
+   "sentence": 1
+  },
+  {
+   "text": "started",
+   "kw": false,
+   "start": 9.641,
+   "end": 10.081,
+   "sentence": 1
+  },
+  {
+   "text": "failing",
+   "kw": false,
+   "start": 10.081,
+   "end": 10.521,
+   "sentence": 1
+  },
+  {
+   "text": "in",
+   "kw": false,
+   "start": 10.521,
+   "end": 10.761,
+   "sentence": 1
+  },
+  {
+   "text": "more",
+   "kw": false,
+   "start": 10.761,
+   "end": 10.961,
+   "sentence": 1
+  },
+  {
+   "text": "than",
+   "kw": false,
+   "start": 10.961,
+   "end": 11.201,
+   "sentence": 1
+  },
+  {
+   "text": "seventy",
+   "kw": true,
+   "start": 11.201,
+   "end": 11.721,
+   "sentence": 1
+  },
+  {
+   "text": "countries.",
+   "kw": false,
+   "start": 11.721,
+   "end": 12.193,
+   "sentence": 1
+  },
+  {
+   "text": "The",
+   "kw": false,
+   "start": 12.573,
+   "end": 12.653,
+   "sentence": 2
+  },
+  {
+   "text": "early",
+   "kw": false,
+   "start": 12.653,
+   "end": 13.053,
+   "sentence": 2
+  },
+  {
+   "text": "explanation?",
+   "kw": false,
+   "start": 13.053,
+   "end": 13.933,
+   "sentence": 2
+  },
+  {
+   "text": "Not",
+   "kw": false,
+   "start": 13.933,
+   "end": 14.173,
+   "sentence": 2
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 14.173,
+   "end": 14.333,
+   "sentence": 2
+  },
+  {
+   "text": "traffic",
+   "kw": false,
+   "start": 14.333,
+   "end": 14.813,
+   "sentence": 2
+  },
+  {
+   "text": "spike.",
+   "kw": false,
+   "start": 14.813,
+   "end": 15.333,
+   "sentence": 2
+  },
+  {
+   "text": "Failed",
+   "kw": true,
+   "start": 15.333,
+   "end": 15.773,
+   "sentence": 2
+  },
+  {
+   "text": "server",
+   "kw": false,
+   "start": 15.773,
+   "end": 16.213,
+   "sentence": 2
+  },
+  {
+   "text": "health",
+   "kw": true,
+   "start": 16.213,
+   "end": 16.533,
+   "sentence": 2
+  },
+  {
+   "text": "checks.",
+   "kw": true,
+   "start": 16.533,
+   "end": 16.923,
+   "sentence": 2
+  },
+  {
+   "text": "Here's",
+   "kw": false,
+   "start": 17.323,
+   "end": 17.723,
+   "sentence": 3
+  },
+  {
+   "text": "what",
+   "kw": false,
+   "start": 17.723,
+   "end": 17.923,
+   "sentence": 3
+  },
+  {
+   "text": "that",
+   "kw": false,
+   "start": 17.923,
+   "end": 18.203,
+   "sentence": 3
+  },
+  {
+   "text": "means.",
+   "kw": false,
+   "start": 18.203,
+   "end": 18.683,
+   "sentence": 3
+  },
+  {
+   "text": "A",
+   "kw": false,
+   "start": 18.683,
+   "end": 18.883,
+   "sentence": 3
+  },
+  {
+   "text": "load",
+   "kw": true,
+   "start": 18.883,
+   "end": 19.243,
+   "sentence": 3
+  },
+  {
+   "text": "balancer",
+   "kw": true,
+   "start": 19.243,
+   "end": 19.923,
+   "sentence": 3
+  },
+  {
+   "text": "keeps",
+   "kw": false,
+   "start": 19.923,
+   "end": 20.323,
+   "sentence": 3
+  },
+  {
+   "text": "asking",
+   "kw": false,
+   "start": 20.323,
+   "end": 20.843,
+   "sentence": 3
+  },
+  {
+   "text": "every",
+   "kw": false,
+   "start": 20.843,
+   "end": 21.163,
+   "sentence": 3
+  },
+  {
+   "text": "server:",
+   "kw": false,
+   "start": 21.163,
+   "end": 21.763,
+   "sentence": 3
+  },
+  {
+   "text": "are",
+   "kw": false,
+   "start": 21.763,
+   "end": 21.963,
+   "sentence": 3
+  },
+  {
+   "text": "you",
+   "kw": false,
+   "start": 21.963,
+   "end": 22.203,
+   "sentence": 3
+  },
+  {
+   "text": "alive?",
+   "kw": true,
+   "start": 22.203,
+   "end": 22.803,
+   "sentence": 3
+  },
+  {
+   "text": "If",
+   "kw": false,
+   "start": 22.803,
+   "end": 23.003,
+   "sentence": 3
+  },
+  {
+   "text": "one",
+   "kw": false,
+   "start": 23.003,
+   "end": 23.283,
+   "sentence": 3
+  },
+  {
+   "text": "stops",
+   "kw": false,
+   "start": 23.283,
+   "end": 23.803,
+   "sentence": 3
+  },
+  {
+   "text": "answering,",
+   "kw": false,
+   "start": 23.803,
+   "end": 24.403,
+   "sentence": 3
+  },
+  {
+   "text": "it",
+   "kw": false,
+   "start": 24.403,
+   "end": 24.603,
+   "sentence": 3
+  },
+  {
+   "text": "gets",
+   "kw": false,
+   "start": 24.603,
+   "end": 24.883,
+   "sentence": 3
+  },
+  {
+   "text": "pulled",
+   "kw": true,
+   "start": 24.883,
+   "end": 25.323,
+   "sentence": 3
+  },
+  {
+   "text": "out",
+   "kw": false,
+   "start": 25.323,
+   "end": 25.483,
+   "sentence": 3
+  },
+  {
+   "text": "of",
+   "kw": false,
+   "start": 25.483,
+   "end": 25.683,
+   "sentence": 3
+  },
+  {
+   "text": "rotation.",
+   "kw": false,
+   "start": 25.683,
+   "end": 26.284,
+   "sentence": 3
+  },
+  {
+   "text": "That's",
+   "kw": false,
+   "start": 26.663,
+   "end": 26.903,
+   "sentence": 4
+  },
+  {
+   "text": "perfect",
+   "kw": false,
+   "start": 26.903,
+   "end": 27.383,
+   "sentence": 4
+  },
+  {
+   "text": "when",
+   "kw": false,
+   "start": 27.383,
+   "end": 27.583,
+   "sentence": 4
+  },
+  {
+   "text": "one",
+   "kw": false,
+   "start": 27.583,
+   "end": 27.863,
+   "sentence": 4
+  },
+  {
+   "text": "server",
+   "kw": false,
+   "start": 27.863,
+   "end": 28.343,
+   "sentence": 4
+  },
+  {
+   "text": "dies.",
+   "kw": false,
+   "start": 28.343,
+   "end": 28.823,
+   "sentence": 4
+  },
+  {
+   "text": "But",
+   "kw": false,
+   "start": 28.823,
+   "end": 29.063,
+   "sentence": 4
+  },
+  {
+   "text": "when",
+   "kw": false,
+   "start": 29.063,
+   "end": 29.303,
+   "sentence": 4
+  },
+  {
+   "text": "many",
+   "kw": true,
+   "start": 29.303,
+   "end": 29.543,
+   "sentence": 4
+  },
+  {
+   "text": "servers",
+   "kw": false,
+   "start": 29.543,
+   "end": 30.183,
+   "sentence": 4
+  },
+  {
+   "text": "fail",
+   "kw": false,
+   "start": 30.183,
+   "end": 30.503,
+   "sentence": 4
+  },
+  {
+   "text": "their",
+   "kw": false,
+   "start": 30.503,
+   "end": 30.703,
+   "sentence": 4
+  },
+  {
+   "text": "checks",
+   "kw": false,
+   "start": 30.703,
+   "end": 31.144,
+   "sentence": 4
+  },
+  {
+   "text": "at",
+   "kw": false,
+   "start": 31.144,
+   "end": 31.343,
+   "sentence": 4
+  },
+  {
+   "text": "once,",
+   "kw": false,
+   "start": 31.343,
+   "end": 31.743,
+   "sentence": 4
+  },
+  {
+   "text": "they",
+   "kw": false,
+   "start": 31.743,
+   "end": 31.983,
+   "sentence": 4
+  },
+  {
+   "text": "all",
+   "kw": true,
+   "start": 31.983,
+   "end": 32.263,
+   "sentence": 4
+  },
+  {
+   "text": "get",
+   "kw": false,
+   "start": 32.263,
+   "end": 32.543,
+   "sentence": 4
+  },
+  {
+   "text": "pulled.",
+   "kw": false,
+   "start": 32.543,
+   "end": 32.952,
+   "sentence": 4
+  },
+  {
+   "text": "Now",
+   "kw": false,
+   "start": 33.332,
+   "end": 33.532,
+   "sentence": 5
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 33.532,
+   "end": 33.692,
+   "sentence": 5
+  },
+  {
+   "text": "same",
+   "kw": false,
+   "start": 33.692,
+   "end": 33.972,
+   "sentence": 5
+  },
+  {
+   "text": "traffic",
+   "kw": false,
+   "start": 33.972,
+   "end": 34.412,
+   "sentence": 5
+  },
+  {
+   "text": "lands",
+   "kw": false,
+   "start": 34.412,
+   "end": 34.812,
+   "sentence": 5
+  },
+  {
+   "text": "on",
+   "kw": false,
+   "start": 34.812,
+   "end": 35.052,
+   "sentence": 5
+  },
+  {
+   "text": "far",
+   "kw": false,
+   "start": 35.052,
+   "end": 35.332,
+   "sentence": 5
+  },
+  {
+   "text": "fewer",
+   "kw": true,
+   "start": 35.332,
+   "end": 35.772,
+   "sentence": 5
+  },
+  {
+   "text": "machines.",
+   "kw": false,
+   "start": 35.772,
+   "end": 36.532,
+   "sentence": 5
+  },
+  {
+   "text": "They",
+   "kw": false,
+   "start": 36.532,
+   "end": 36.852,
+   "sentence": 5
+  },
+  {
+   "text": "overload,",
+   "kw": true,
+   "start": 36.852,
+   "end": 37.652,
+   "sentence": 5
+  },
+  {
+   "text": "slow",
+   "kw": false,
+   "start": 37.652,
+   "end": 38.172,
+   "sentence": 5
+  },
+  {
+   "text": "down,",
+   "kw": false,
+   "start": 38.172,
+   "end": 38.492,
+   "sentence": 5
+  },
+  {
+   "text": "and",
+   "kw": false,
+   "start": 38.492,
+   "end": 38.772,
+   "sentence": 5
+  },
+  {
+   "text": "start",
+   "kw": false,
+   "start": 38.772,
+   "end": 39.132,
+   "sentence": 5
+  },
+  {
+   "text": "failing",
+   "kw": false,
+   "start": 39.132,
+   "end": 39.692,
+   "sentence": 5
+  },
+  {
+   "text": "too.",
+   "kw": false,
+   "start": 39.692,
+   "end": 39.891,
+   "sentence": 5
+  },
+  {
+   "text": "Engineers",
+   "kw": false,
+   "start": 40.251,
+   "end": 40.891,
+   "sentence": 6
+  },
+  {
+   "text": "call",
+   "kw": false,
+   "start": 40.891,
+   "end": 41.091,
+   "sentence": 6
+  },
+  {
+   "text": "that",
+   "kw": false,
+   "start": 41.091,
+   "end": 41.291,
+   "sentence": 6
+  },
+  {
+   "text": "a",
+   "kw": false,
+   "start": 41.291,
+   "end": 41.451,
+   "sentence": 6
+  },
+  {
+   "text": "cascading",
+   "kw": true,
+   "start": 41.451,
+   "end": 42.131,
+   "sentence": 6
+  },
+  {
+   "text": "failure.",
+   "kw": true,
+   "start": 42.131,
+   "end": 42.554,
+   "sentence": 6
+  },
+  {
+   "text": "Microsoft",
+   "kw": false,
+   "start": 42.954,
+   "end": 43.754,
+   "sentence": 7
+  },
+  {
+   "text": "says",
+   "kw": false,
+   "start": 43.754,
+   "end": 43.994,
+   "sentence": 7
+  },
+  {
+   "text": "the",
+   "kw": false,
+   "start": 43.994,
+   "end": 44.154,
+   "sentence": 7
+  },
+  {
+   "text": "final",
+   "kw": false,
+   "start": 44.154,
+   "end": 44.554,
+   "sentence": 7
+  },
+  {
+   "text": "root",
+   "kw": true,
+   "start": 44.554,
+   "end": 44.874,
+   "sentence": 7
+  },
+  {
+   "text": "cause",
+   "kw": true,
+   "start": 44.874,
+   "end": 45.394,
+   "sentence": 7
+  },
+  {
+   "text": "is",
+   "kw": false,
+   "start": 45.394,
+   "end": 45.634,
+   "sentence": 7
+  },
+  {
+   "text": "still",
+   "kw": false,
+   "start": 45.634,
+   "end": 45.914,
+   "sentence": 7
+  },
+  {
+   "text": "being",
+   "kw": false,
+   "start": 45.914,
+   "end": 46.274,
+   "sentence": 7
+  },
+  {
+   "text": "investigated.",
+   "kw": false,
+   "start": 46.274,
+   "end": 47.223,
+   "sentence": 7
+  },
+  {
+   "text": "The",
+   "kw": false,
+   "start": 47.623,
+   "end": 47.783,
+   "sentence": 8
+  },
+  {
+   "text": "lesson?",
+   "kw": false,
+   "start": 47.783,
+   "end": 48.383,
+   "sentence": 8
+  },
+  {
+   "text": "Health",
+   "kw": true,
+   "start": 48.383,
+   "end": 48.703,
+   "sentence": 8
+  },
+  {
+   "text": "checks",
+   "kw": true,
+   "start": 48.703,
+   "end": 49.143,
+   "sentence": 8
+  },
+  {
+   "text": "decide",
+   "kw": false,
+   "start": 49.143,
+   "end": 49.623,
+   "sentence": 8
+  },
+  {
+   "text": "who",
+   "kw": false,
+   "start": 49.623,
+   "end": 49.823,
+   "sentence": 8
+  },
+  {
+   "text": "gets",
+   "kw": false,
+   "start": 49.823,
+   "end": 50.183,
+   "sentence": 8
+  },
+  {
+   "text": "traffic.",
+   "kw": false,
+   "start": 50.183,
+   "end": 50.703,
+   "sentence": 8
+  },
+  {
+   "text": "Design",
+   "kw": false,
+   "start": 50.703,
+   "end": 51.263,
+   "sentence": 8
+  },
+  {
+   "text": "them",
+   "kw": false,
+   "start": 51.263,
+   "end": 51.463,
+   "sentence": 8
+  },
+  {
+   "text": "to",
+   "kw": false,
+   "start": 51.463,
+   "end": 51.663,
+   "sentence": 8
+  },
+  {
+   "text": "fail",
+   "kw": true,
+   "start": 51.663,
+   "end": 52.103,
+   "sentence": 8
+  },
+  {
+   "text": "carefully.",
+   "kw": true,
+   "start": 52.103,
+   "end": 52.595,
+   "sentence": 8
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.25,
+   "end": 1.37,
+   "words": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "start": 1.37,
+   "end": 2.29,
+   "words": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "start": 2.29,
+   "end": 3.25,
+   "words": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "start": 3.25,
+   "end": 4.69,
+   "words": [
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "start": 4.69,
+   "end": 5.29,
+   "words": [
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "start": 5.29,
+   "end": 6.191,
+   "words": [
+    15,
+    16
+   ]
+  },
+  {
+   "start": 6.241,
+   "end": 7.561,
+   "words": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "start": 7.561,
+   "end": 10.081,
+   "words": [
+    20,
+    21,
+    22
+   ]
+  },
+  {
+   "start": 10.081,
+   "end": 10.961,
+   "words": [
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "start": 10.961,
+   "end": 11.721,
+   "words": [
+    26,
+    27
+   ]
+  },
+  {
+   "start": 11.721,
+   "end": 12.543,
+   "words": [
+    28
+   ]
+  },
+  {
+   "start": 12.573,
+   "end": 13.933,
+   "words": [
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "start": 13.933,
+   "end": 14.813,
+   "words": [
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "start": 14.813,
+   "end": 15.333,
+   "words": [
+    35
+   ]
+  },
+  {
+   "start": 15.333,
+   "end": 16.533,
+   "words": [
+    36,
+    37,
+    38
+   ]
+  },
+  {
+   "start": 16.533,
+   "end": 17.273,
+   "words": [
+    39
+   ]
+  },
+  {
+   "start": 17.323,
+   "end": 18.203,
+   "words": [
+    40,
+    41,
+    42
+   ]
+  },
+  {
+   "start": 18.203,
+   "end": 18.683,
+   "words": [
+    43
+   ]
+  },
+  {
+   "start": 18.683,
+   "end": 19.923,
+   "words": [
+    44,
+    45,
+    46
+   ]
+  },
+  {
+   "start": 19.923,
+   "end": 21.163,
+   "words": [
+    47,
+    48,
+    49
+   ]
+  },
+  {
+   "start": 21.163,
+   "end": 21.763,
+   "words": [
+    50
+   ]
+  },
+  {
+   "start": 21.763,
+   "end": 22.803,
+   "words": [
+    51,
+    52,
+    53
+   ]
+  },
+  {
+   "start": 22.803,
+   "end": 23.803,
+   "words": [
+    54,
+    55,
+    56
+   ]
+  },
+  {
+   "start": 23.803,
+   "end": 24.403,
+   "words": [
+    57
+   ]
+  },
+  {
+   "start": 24.403,
+   "end": 25.323,
+   "words": [
+    58,
+    59,
+    60
+   ]
+  },
+  {
+   "start": 25.323,
+   "end": 26.634,
+   "words": [
+    61,
+    62,
+    63
+   ]
+  },
+  {
+   "start": 26.663,
+   "end": 27.583,
+   "words": [
+    64,
+    65,
+    66
+   ]
+  },
+  {
+   "start": 27.583,
+   "end": 28.823,
+   "words": [
+    67,
+    68,
+    69
+   ]
+  },
+  {
+   "start": 28.823,
+   "end": 29.543,
+   "words": [
+    70,
+    71,
+    72
+   ]
+  },
+  {
+   "start": 29.543,
+   "end": 30.703,
+   "words": [
+    73,
+    74,
+    75
+   ]
+  },
+  {
+   "start": 30.703,
+   "end": 31.743,
+   "words": [
+    76,
+    77,
+    78
+   ]
+  },
+  {
+   "start": 31.743,
+   "end": 32.543,
+   "words": [
+    79,
+    80,
+    81
+   ]
+  },
+  {
+   "start": 32.543,
+   "end": 33.302,
+   "words": [
+    82
+   ]
+  },
+  {
+   "start": 33.332,
+   "end": 33.972,
+   "words": [
+    83,
+    84,
+    85
+   ]
+  },
+  {
+   "start": 33.972,
+   "end": 35.052,
+   "words": [
+    86,
+    87,
+    88
+   ]
+  },
+  {
+   "start": 35.052,
+   "end": 36.532,
+   "words": [
+    89,
+    90,
+    91
+   ]
+  },
+  {
+   "start": 36.532,
+   "end": 37.652,
+   "words": [
+    92,
+    93
+   ]
+  },
+  {
+   "start": 37.652,
+   "end": 38.492,
+   "words": [
+    94,
+    95
+   ]
+  },
+  {
+   "start": 38.492,
+   "end": 39.692,
+   "words": [
+    96,
+    97,
+    98
+   ]
+  },
+  {
+   "start": 39.692,
+   "end": 40.241,
+   "words": [
+    99
+   ]
+  },
+  {
+   "start": 40.251,
+   "end": 41.291,
+   "words": [
+    100,
+    101,
+    102
+   ]
+  },
+  {
+   "start": 41.291,
+   "end": 42.904,
+   "words": [
+    103,
+    104,
+    105
+   ]
+  },
+  {
+   "start": 42.954,
+   "end": 44.154,
+   "words": [
+    106,
+    107,
+    108
+   ]
+  },
+  {
+   "start": 44.154,
+   "end": 45.394,
+   "words": [
+    109,
+    110,
+    111
+   ]
+  },
+  {
+   "start": 45.394,
+   "end": 46.274,
+   "words": [
+    112,
+    113,
+    114
+   ]
+  },
+  {
+   "start": 46.274,
+   "end": 47.573,
+   "words": [
+    115
+   ]
+  },
+  {
+   "start": 47.623,
+   "end": 48.383,
+   "words": [
+    116,
+    117
+   ]
+  },
+  {
+   "start": 48.383,
+   "end": 49.623,
+   "words": [
+    118,
+    119,
+    120
+   ]
+  },
+  {
+   "start": 49.623,
+   "end": 50.703,
+   "words": [
+    121,
+    122,
+    123
+   ]
+  },
+  {
+   "start": 50.703,
+   "end": 51.663,
+   "words": [
+    124,
+    125,
+    126
+   ]
+  },
+  {
+   "start": 51.663,
+   "end": 53.195,
+   "words": [
+    127,
+    128
+   ]
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "c": {
+  "teams": 0.89,
+  "down": 1.97,
+  "world": 2.85,
+  "notattack": 5.05,
+  "news": 6.241,
+  "m365": 8.481,
+  "failing": 10.081,
+  "seventy": 11.201,
+  "expl": 12.573,
+  "spike": 14.333,
+  "failed": 15.333,
+  "health": 16.213,
+  "lb": 17.323,
+  "balancer": 18.883,
+  "asking": 20.323,
+  "alive": 22.203,
+  "stops": 23.283,
+  "pulled": 24.883,
+  "one": 26.663,
+  "dies": 28.343,
+  "many": 29.303,
+  "atonce": 31.343,
+  "allp": 31.983,
+  "now": 33.332,
+  "fewer": 35.332,
+  "overload": 36.852,
+  "slow": 37.652,
+  "failing2": 39.132,
+  "casc": 40.251,
+  "cascading": 41.451,
+  "inv": 42.954,
+  "root": 44.554,
+  "investigated": 46.274,
+  "end": 47.623,
+  "hc": 48.383,
+  "decide": 49.143,
+  "fail": 51.663,
+  "carefully": 52.103,
+  "duration": 53.495
+ },
+ "sfx": [
+  {
+   "type": "click",
+   "t": 0.94
+  },
+  {
+   "type": "zap",
+   "t": 1.97,
+   "gain": 0.8
+  },
+  {
+   "type": "thud",
+   "t": 2.32
+  },
+  {
+   "type": "click",
+   "t": 5.1
+  },
+  {
+   "type": "whoosh",
+   "t": 6.191
+  },
+  {
+   "type": "click",
+   "t": 8.731
+  },
+  {
+   "type": "click",
+   "t": 9.031
+  },
+  {
+   "type": "click",
+   "t": 9.331
+  },
+  {
+   "type": "click",
+   "t": 9.631
+  },
+  {
+   "type": "click",
+   "t": 9.931
+  },
+  {
+   "type": "click",
+   "t": 11.251
+  },
+  {
+   "type": "whoosh",
+   "t": 12.523
+  },
+  {
+   "type": "click",
+   "t": 14.383
+  },
+  {
+   "type": "click",
+   "t": 15.383
+  },
+  {
+   "type": "whoosh",
+   "t": 17.273
+  },
+  {
+   "type": "click",
+   "t": 18.933
+  },
+  {
+   "type": "pops",
+   "t": 20.323,
+   "dur": 1.6
+  },
+  {
+   "type": "click",
+   "t": 22.253
+  },
+  {
+   "type": "click",
+   "t": 23.333
+  },
+  {
+   "type": "thud",
+   "t": 25.233,
+   "gain": 0.7
+  },
+  {
+   "type": "whoosh",
+   "t": 26.613
+  },
+  {
+   "type": "click",
+   "t": 28.393
+  },
+  {
+   "type": "pops",
+   "t": 29.303,
+   "dur": 1.4
+  },
+  {
+   "type": "thud",
+   "t": 32.483
+  },
+  {
+   "type": "whoosh",
+   "t": 33.282
+  },
+  {
+   "type": "click",
+   "t": 35.382
+  },
+  {
+   "type": "alarm",
+   "t": 36.852,
+   "dur": 2.780000000000001
+  },
+  {
+   "type": "thud",
+   "t": 39.232,
+   "gain": 0.8
+  },
+  {
+   "type": "thud",
+   "t": 39.452,
+   "gain": 0.8
+  },
+  {
+   "type": "thud",
+   "t": 39.672,
+   "gain": 0.8
+  },
+  {
+   "type": "thud",
+   "t": 39.892,
+   "gain": 0.8
+  },
+  {
+   "type": "power",
+   "t": 41.351
+  },
+  {
+   "type": "zap",
+   "t": 41.651
+  },
+  {
+   "type": "whoosh",
+   "t": 42.904
+  },
+  {
+   "type": "click",
+   "t": 44.604
+  },
+  {
+   "type": "click",
+   "t": 46.324
+  },
+  {
+   "type": "whoosh",
+   "t": 47.573
+  },
+  {
+   "type": "click",
+   "t": 48.433
+  },
+  {
+   "type": "click",
+   "t": 51.713
+  },
+  {
+   "type": "click",
+   "t": 52.153
+  }
+ ]
+}
